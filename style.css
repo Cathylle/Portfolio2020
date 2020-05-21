@@ -1,0 +1,339 @@
+body{
+    overflow-x: hidden;
+}
+
+
+html{
+    font-family: 'Raleway', sans-serif;
+    color: #102263;
+    margin-top: 0;
+}
+/************************************************************************************* HEADER **************************************************************************************/
+header{
+    height: fit-content;
+    width: 100vw;
+    background-image: url("img/img-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin-top: 0;
+    color: white;
+    text-transform: uppercase ;
+    font-weight: 750 ;
+    font-size: 8rem;
+    letter-spacing: 2rem;
+    padding-top: 10rem;
+    margin-left: auto;
+    width: fit-content;
+    margin-bottom: 15rem;
+    word-break: break-word;
+}
+
+.encres{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 1rem;
+    border-right: 4px solid white;
+margin-bottom: 10rem;
+}
+
+.encres a{
+    color: white;
+    font-size: 5rem;
+}
+
+.socialMedia img{
+    width: 3rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+
+h3{
+    font-family: 'Mr Dafoe', cursive;
+    color: white;
+}
+
+/* Boutton scroll */
+
+.scrollWrap{
+    display:flex;
+    position:relative;
+    justify-content:center;
+    bottom:-15rem;
+}
+.scroll{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: #ffffff 2px solid;
+    border-radius: 40%;
+    width: 35px;
+    height: 50px;
+    animation-name: animF;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    color: transparent;
+    position: absolute;
+    bottom : 3vh;
+    transition: 0.25s;
+}
+
+.scroll:visited{
+    border: white 2px solid;
+    color: transparent;
+}
+
+.scroll:hover{
+    border: #06195d 2px solid;
+    color: transparent;
+}
+
+
+.scroll::before{
+    content: "";
+    width: 5px;
+    height: 8px;
+    border: #ffffff 2px solid;
+    position: absolute;
+    border-radius: 100%;
+    margin: 40% 40%;
+    transition: 0.25s;
+}
+.scroll:hover::before{
+    border: #06195d 2px solid;
+}
+.scroll::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-top: #ffffff 2px solid;
+    border-right: #ffffff 2px solid;
+    position: absolute;
+    top: 45px;
+    right: -5px;
+    transform: rotate(132deg);
+    margin: 40% 40%;
+    animation-name: opa;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    transition: 0.25s;
+}
+.scroll:hover::after{
+    border-top: #06195d 2px solid;
+    border-right: #06195d 2px solid;
+}
+@keyframes animF{
+    0%{
+        transform: translateY(3px)
+    }
+    100%{
+        transform: translateY(-3px)
+    }
+}
+@keyframes opa{
+    0%{
+         opacity: 100%;
+    }
+    100%{
+        opacity: 10%;
+    }
+}
+
+
+header::after{
+    content: "";
+    display: block;
+    height: 25vh;
+    background: linear-gradient(transparent, #f6f6f6);
+}
+
+#apropos::before{
+    content: "";
+    display: block;
+    height: 12vh;
+    background: linear-gradient(transparent, #ffffff);
+   margin-top: -5rem;
+    
+}
+
+/************************************************************************************* Section Globales **************************************************************************************/
+
+ h2::before{
+content: "";
+width: 5rem;
+border-top: 4px solid  #06195d;
+display: block;
+margin: auto;
+margin-bottom: 1rem;
+}
+
+h2{
+    width: fit-content;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block; 
+    color:  #06195d;
+    font-weight: bold;
+    margin-bottom: 7rem;
+}
+
+h2::after{
+    width: 5rem;
+content: "";
+border-top: 4px solid  #06195d;
+display: block;
+margin: auto;
+margin-top: 1rem;
+}
+
+p{
+font-size: 1.6rem;
+color:  #06195d;
+z-index: 1;
+}
+
+
+/************************************************************************************* A propos **************************************************************************************/
+#apropos{
+    height: fit-content;
+    padding-top: 8rem;
+    position: relative;
+}
+
+#apropos h2{
+    display: block;
+    width: fit-content;
+    text-align: right;
+    margin-left: auto;
+    
+}
+
+
+#apropos .textepropos{
+text-align: right;
+width: fit-content;
+margin-left: 35%;
+}
+
+.competences{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    padding-top: 15rem;
+}
+
+#apropos .pic{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    transform: rotate(45deg);
+    margin: auto;
+
+}
+.caption p{
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8rem;
+
+}
+
+.rocimg{
+    position: absolute;
+width: 500px;
+    right: 69%;
+bottom: -15%;
+}
+
+
+/************************************************************************************* Realisations **************************************************************************************/
+#real{
+    position: relative;
+    width: 100vw;
+}
+
+#real h2{
+    display: block;
+    text-align: left;
+    width: fit-content;
+margin-right: 0;
+}
+
+#real .boutontrav .pic{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border: white 5px solid;
+    display: inline-block;
+}
+
+.boutontrav{
+padding-top: 2rem;
+
+}
+.meduse{
+    right: 0;
+    width: 50%;
+    top: -10rem;
+    max-width: 600px;
+    position: absolute;
+}
+.vaisseau{
+    max-width: 410px;
+}
+.pictureprez{
+    padding: 0;
+    margin-top: 15rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: tomato;
+    
+}
+.pictureprez .pic{
+border-radius: 20%;
+/* width: 25rem; */
+    }
+
+
+/************************************************************************************* Contact **************************************************************************************/
+
+footer h2{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.coordonnees{
+    margin-bottom: 5rem;
+}
+
+footer{
+    height: fit-content;
+    width: 100vw;
+    background-image: url(img/img-fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 10rem;
+}
+
+footer .socialMedia{
+    margin-top: 4rem;
+    display: flex;}
+
+footer .socialMedia img{
+    margin-right: 2rem;
+}
