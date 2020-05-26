@@ -94,7 +94,7 @@ h3{
 }
 
 .scroll:hover{
-    border: #06195d 2px solid;
+
     color: transparent;
 }
 
@@ -109,9 +109,7 @@ h3{
     margin: 40% 40%;
     transition: 0.25s;
 }
-.scroll:hover::before{
-    border: #06195d 2px solid;
-}
+
 .scroll::after{
     content: "";
     width: 15px;
@@ -130,10 +128,7 @@ h3{
     animation-timing-function: ease-in-out;
     transition: 0.25s;
 }
-.scroll:hover::after{
-    border-top: #06195d 2px solid;
-    border-right: #06195d 2px solid;
-}
+
 @keyframes animF{
     0%{
         transform: translateY(3px)
@@ -223,8 +218,6 @@ z-index: 1;
 
 #apropos .textepropos{
 text-align: right;
-width: fit-content;
-margin-left: 35%;
 }
 
 .competences{
@@ -264,6 +257,10 @@ bottom: -15%;
 #real{
     position: relative;
     width: 100vw;
+    background-image: url(img/img-meduse.png);
+    background-repeat: no-repeat;
+    background-size: calc(max(25%, 250px));
+    background-position: right 10% top 0;
 }
 
 #real h2{
@@ -305,7 +302,7 @@ padding-top: 2rem;
 }
 .pictureprez .pic{
 border-radius: 20%;
-/* width: 25rem; */
+margin-bottom: 2rem;
     }
 
 
@@ -336,4 +333,56 @@ footer .socialMedia{
 
 footer .socialMedia img{
     margin-right: 2rem;
+}
+
+
+
+
+/************************************************************************************* RealPage **************************************************************************************/
+.realPage{
+background-image: url(img/img-real.jpg);
+background-position: center bottom -80px;
+background-repeat: no-repeat;
+background-size:  contain;
+margin-top: 5vh;
+max-height: 100vh;
+
+}
+.realPage h1::before{
+    content: "";
+    width: 5rem;
+    border-top: 4px solid  #06195d;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+    }
+    
+.realPage  h1{
+    width: fit-content;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block; 
+    color:  #06195d;
+    font-weight: bold;
+    margin-bottom: 7rem;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0;
+    padding-top: 3rem;
+    }
+    
+.realPage  h1::after{
+        width: 5rem;
+    content: "";
+    border-top: 4px solid  #06195d;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    }
+.realPage p{
+    margin-bottom: 7vh;
+}
+.realPage img{
+    max-width: 100vw;
 }

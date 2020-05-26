@@ -1,503 +1,600 @@
 [
-    {   "categorie":"web",
+    {   "size": 1 ,
+        "titre":"Le Salon Des Innovations Wallonnes 2020",
+        "id":34,
+        "categorie":"web",
         "miniature":"img/WEB/mini-innoHeaderjpg.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/WEB/illu_HeaderVisual.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Header du site du Salon Des Innovations Wallonnes",
+                "titre":"Salon Des Innovations Wallonnes"
                 },
             {"src":"img/WEB/teamUX.jpg",
-            "alt":"une image",
-            "titre":"C'est l'image de Corten"
+            "alt":"Groupe de la formation UX/Webdesign",
+            "titre":"Team UX"
             },
             {"src":"img/WEB/bernard.jpg",
-            "alt":"une image",
-            "titre":"C'est l'image de Corten"
+            "alt":"Persona",
+            "titre":"Bernard"
             }
         ]
     },
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre":"L'Héritage",
+        "id":33,
+        "categorie":"commu",
         "miniature":"img/COMMU/TFE/mini-TFE-Couverture.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/TFE/TFE-Couverture.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Couverture de l'Héritage",
+                "titre":"L'héritage"
                 },
             {"src":"img/COMMU/TFE/TFE-Couverture2.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Quatrième de couverture de l'Héritage",
+                "titre":"Synopsis"
                 },
             {"src":"img/COMMU/TFE/TFE-Interieur.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"L'Héritage-Extrait",
+                "titre":"L'Héritage-Extrait"
                 }
         ]
     },
 
 
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+         "titre":"Hot Summer",
+        "id":32,
+        "categorie":"illu",
         "miniature":"img/ILLU/HotSummerStage/mini-hotSummer.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU//HotSummerStage/HS-01.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Hot Summer-Travail de Stage",
+                "titre":"Hot Summer-Travail de Stage"
                 },
             
             {"src":"img/ILLU//HotSummerStage/HS-02.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Hot Summer-Travail de Stage",
+                "titre":"Hot Summer-Travail de Stage"
                 }
                 ,
             
             {"src":"img/ILLU//HotSummerStage/HS-03.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Hot Summer-Travail de Stage",
+                "titre":"Hot Summer-Travail de Stage"
             },
             
             {"src":"img/ILLU//HotSummerStage/HS-04.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Hot Summer-Travail de Stage",
+                "titre":"Hot Summer-Travail de Stage"
             }
                 
         ]
     }, 
 
-    {   "categorie":"web",
+    {   "size": 1 ,
+        "titre": "Comic Diner",
+        "id":31,
+        "categorie":"web",
         "miniature":"img/VIDEO/mini-comicDinner.jpg",
-        "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
+        "texte":"Au cours de la deuxième année d'infographie, un workshop d'une semaine a été réalisé. Le but était de repousser nos limites, d'utiliser différents outils, de comprendre comment développer un projet avec une communication graphique innovante et accrocheuse tout en fonctionnant en groupe. Le défis a été remporté avec succès grâce à la cohésion, le sérieux, l'organisation et la bonne humeur de chacun.Travail réalisé par Antoine Lantonnois, Catherine Jouret, Johan Godefroid, Manon Moreau, Mara Ferroni, Nathan Doppagne, Sophie Lambert",
         "photos" : [
-            {"src":"https://www.youtube.com/watch?v=RNIoh3YIZJE",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+            {"src":"<iframe src='https://www.youtube.com/embed/RNIoh3YIZJE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
         ]
     },
-    {   "categorie":"commu",
+    {   "size": 0 ,
+        "titre": "Abécédaire",
+        "id":30,
+        "categorie":"commu",
         "miniature":"img/COMMU/mini-ABC.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/ABC.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Abécédaire",
+                "titre":"Abécédaire"
                 }
         ]
     },
 
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre": "Carte de visite",
+        "id":29,
+        "categorie":"commu",
         "miniature":"img/COMMU/mini-AJ-CarteVisite.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/AJ-CarteVisite.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Carte de visite dédiée à Alain Jouret",
+                "titre":"Carte de visite"
                 }
         ]
     },
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre": "Carte de visite",
+        "id":28,
+        "categorie":"commu",
         "miniature":"img/COMMU/mini-CJ-CarteVisite.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/CJ-CarteVisite.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Carte de visite dédiée à Catherine Jouret",
+                "titre":"Carte de visite"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "Chaos",
+        "id":27,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-encreDeChineEffet.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/encreDeChineEffet.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Recherche graphique: mélange d'eau et d'encre de chine sur du papier",
+                "titre":"Choas"
                 }
         ]
     },
  
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Texture Abstraite",
+        "id":26,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-selAquarelle.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/selAquarelle.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Recherche graphique: mélange d'eau , d'aquarelle et de sel",
+                "titre":"Texture Abstraite"
                 }
         ]
     },
 
     
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Tempête de neige",
+        "id":25,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-snowTempest.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/snowTempest.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Garçon masqué perdu dans une tempête de neige",
+                "titre":"Tempête de neige"
                 }
         ]
     },
     
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "Hiver nocturne",
+        "id":24,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-snow.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/snow.jpg",
-                "alt":"une image",
+                "alt":"Petite route plongée dans le noir et sapin enneigé",
                 "titre":"C'est l'image de Corten"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "Punk",
+        "id":23,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-portraitPunk.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/portraitPunk.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Jeune fille aux cheveux bleuté",
+                "titre":"Punk"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Méditation",
+        "id":22,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-portraitCalme.jpg",
-        "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
+        "texte":"titre 22, evidemment. En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/portraitCalme.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Fille aux cheveux gris",
+                "titre":"Méditation"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "Sérénité",
+        "id":21,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-portraitSerein.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/portraitSerein.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Fille blonde avec des chignons",
+                "titre":"Sérénité"
                 }
         ]
     },
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Arc",
+        "id":20,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-illu-arc.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/illu-arc.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Paysage avec un monument en pierre qui forme un arc",
+                "titre":"Arc"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Le petit chaperon rouge",
+        "id":19,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-chaperon.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/chaperon.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Fillette qui se promène dans une forêt, un loup à ses trousses",
+                "titre":"Le petit chaperon rouge"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Désert",
+        "id":18,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-cactus.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/cactus.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Cactus et scorpion dans un désert",
+                "titre":"Désert"
                 }
         ]
     },
 
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre": "Mythologie",
+        "id":17,
+        "categorie":"commu",
         "miniature":"img/COMMU/mini-Mythologie3.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/Mythologie3.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Livre sur la mythologie posé sur la table",
+                "titre":"Mythologie"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "Méduses",
+        "id":16,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-meduses.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/meduses.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Des méduses roses qui se promènent à travers la mer",
+                "titre":"Méduses"
                 }
         ]
     },
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Bloom to the moon",
+        "id":15,
+        "categorie":"illu",
         "miniature":"img/ILLU/workshopTampon/mini-workshop.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/workshopTampon/workshop-couverture1.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Couverture",
+                "titre":"Bloom to the moon-Couverture"
                 },
             
             {"src":"img/ILLU/workshopTampon/workshop-illu.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Illustration complète",
+                "titre":"Bloom to the moon"
                 },
             
             {"src":"img/ILLU/workshopTampon/workshop-couverture2.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Quatrième de couverture",
+                "titre":"Bloom to the moon-Quatrième de couverture"
             },
             
             {"src":"img/ILLU/workshopTampon/workshop-brush.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Echantillons des tampons utilisés pour le workshop",
+                "titre":"Bloom to the moon-Tampons"
             }
                 
         ]
     },
-    {   "categorie":"web",
+    {   "size": 1 ,
+        "titre": "Présentation",
+        "id":14,
+        "categorie":"web",
         "miniature":"img/VIDEO/mini-videoPresentation.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
-            {"src":"https://www.youtube.com/embed/UHW0TB0uAfg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+            {"src":"<iframe width='560' height='315' src='https://www.youtube.com/embed/UHW0TB0uAfg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "L'aventurier",
+        "id":13,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-photoMontageSnail.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/photoMontageSnail.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Photomontage d'un escargot en visite touristique",
+                "titre":"L'aventurier"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Snaily",
+        "id":12,
+        "categorie":"illu",
         "miniature":"img/VIDEO/mini-Snaily.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
-            {"src":"https://www.youtube.com/watch?v=dyF3AV25nB8",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+            {"src":"<iframe width='560' height='315' src='https://www.youtube.com/embed/dyF3AV25nB8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+
                 }
         ]
     },
 
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Le voleur de salades",
+        "id":11,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-lapin.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/lapin.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Un lapin et une vieille madame près d'une maison",
+                "titre":"Le voleur de salades"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Inktober 2018",
+        "id":10,
+        "categorie":"illu",
         "miniature":"img/ILLU/Inktober/mini-inktober-tranche.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/Inktober/inktober-tranche.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Petite sorcière en couleur",
+                "titre":"Tranche de vie"
                 },
             
             {"src":"img/ILLU/Inktober/inktober-tonnerre.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière assise sur un nuage d'où jaillit un éclair",
+                "titre":"Tonnerre"
                 }
                 ,
             
             {"src":"img/ILLU/Inktober/inktober-riche.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière avec une couronne et des bijoux",
+                "titre":"Riche"
             },
             
             {"src":"img/ILLU/Inktober/inktober-mongolfiere.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière dans une mongolfière-poisson",
+                "titre":"Mongolfiere"
             },
             
             {"src":"img/ILLU/Inktober/inktober-jour-nuit.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Effet miroir entre le jour et la nuit",
+                "titre":"Jour-Nuit"
                 }
                 ,
             
             {"src":"img/ILLU/Inktober/inktober-horloge-colo.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière qui court sur une horloge de fleur",
+                "titre":"Horloge"
             },
             
             {"src":"img/ILLU/Inktober/inktober-etude.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière blasée couchée sur des livres",
+                "titre":"Etude"
             },
             
             {"src":"img/ILLU/Inktober/inktober-cercle.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière qui décide des cercles magiques",
+                "titre":"Cercle"
                 }
                 ,
             
             {"src":"img/ILLU/Inktober/inktober-baveux.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière qui prend de la bave à un crapaud",
+                "titre":"Baveux"
             },
             
             {"src":"img/ILLU/Inktober/inktober-baleine-colo.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière dans un sous-marin poisson à coté d'une grande baleine",
+                "titre":"Baleine"
             },
             
             {"src":"img/ILLU/Inktober/inktober-balais.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Sorcière debout sur son balais",
+                "titre":"Balais"
             }
                 
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "évasion",
+        "id":9,
+        "categorie":"illu",
         "miniature":"img/ILLU/TFA/mini-evasion-E3.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/TFA/evasion-E3.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Petite fille qui bande la main d'un petit garçon",
+                "titre":"Evasion-Extrait"
                 },
             
             {"src":"img/ILLU/TFA/evasion-E2.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Petite fille qui pleure dans un tableau",
+                "titre":"Evasion-Extrait"
                 }
                 ,
             
             {"src":"img/ILLU/TFA/evasion-E1.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Petit garçon, devant la pluie, à l'entrée d'un grand batiment",
+                "titre":"Evasion-Extrait"
             }
                 
         ]
     },
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre": "La petite fille de monsieur Linh",
+        "id":8,
+        "categorie":"commu",
         "miniature":"img/COMMU/MrLinh/mini-linh.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/MrLinh/afficheLinh.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Affiche avec une illustration de banc et de bombes",
+                "titre":"Affiche"
                 },
             
             {"src":"img/COMMU/MrLinh/invitationLinh.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Carton d'invitation avec une illustration de banc",
+                "titre":"Carton d'invitation"
                 }
                 
         ]
     },
 
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre": "Menu",
+        "id":7,
+        "categorie":"commu",
         "miniature":"img/COMMU/Menu/mini-depliant.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/Menu/depliant-1.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Menu dépliant, recto",
+                "titre":"Menu"
                 },
             
             {"src":"img/COMMU/Menu/depliant-2.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Menu dépliant, verso",
+                "titre":"Menu"
                 }
                 
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Les pieds dans le plat",
+        "id":6,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-pied-dans-le-plat.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/pied-dans-le-plat.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Petit chien anthropomorphe dans un plat",
+                "titre":"Les pieds dans le plat"
                 }
         ]
     },
 
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Natoo",
+        "id":5,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-natoo.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/natoo.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Illustration de Natoo avec un grand chapeau de paille",
+                "titre":"Natoo"
                 }
         ]
     },
 
 
-    {   "categorie":"commu",
+    {   "size": 1 ,
+        "titre": "équité, inéquité, égalité, inégalité",
+        "id":4,
+        "categorie":"commu",
         "miniature":"img/COMMU/mini-UMONS.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/UMONS.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Mise en page pour mon TFE de Psychologie",
+                "titre":"équité, inéquité, égalité, inégalité-UMONS"
                 }
         ]
     },
 
 
-    {   "categorie":"illu",
+    {   "size": 0 ,
+        "titre": "Tableau",
+        "id":3,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-tableau.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/tableau.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Petite fille grise devant un tableau de couleur",
+                "titre":"Tableau"
                 }
         ]
     },
-    {   "categorie":"illu",
+    {   "size": 1 ,
+        "titre": "Muffin",
+        "id":2,
+        "categorie":"illu",
         "miniature":"img/ILLU/mini-muffin.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/ILLU/muffin.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Fillette devant une maison de bonbon",
+                "titre":"Muffin"
                 }
         ]
     },
-    {   "categorie":"commu",
+    {   "size": 0 ,
+        "titre": "Recherche de logo",
+        "id":1,
+        "categorie":"commu",
         "miniature":"img/COMMU/RechercheLogo/mini-logoSearch.jpg",
         "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
         "photos" : [
             {"src":"img/COMMU/RechercheLogo/logoSearch.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Recherche de logo",
+                "titre":"Recherche de logo"
                 },
             
             {"src":"img/COMMU/RechercheLogo/logoSearch2.jpg",
-                "alt":"une image",
-                "titre":"C'est l'image de Corten"
+                "alt":"Recherche de logo",
+                "titre":"Recherche de logo"
                 }
                 
         ]
