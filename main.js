@@ -1,13 +1,13 @@
 //**************************************************************************Code pour smooth scrool**************************************************************************//
 
 //Code de https://perishablepress.com/vanilla-javascript-scroll-anchor/ //
-
+if(window.location.href.includes("index")){
 (function() {
 	scrollTo();
 })();
 
 function scrollTo() {
-	const links = document.querySelectorAll('a, .lienAncre');
+	const links = document.querySelectorAll('.lienAncre');
 	links.forEach(each => (each.onclick = scrollAnchors));
 }
 
@@ -33,7 +33,7 @@ function scrollAnchors(e, respond = null) {
 
 //**************************************************************************Code pour afficher les images des réalisations**************************************************************************//
 
-if(!window.location.href.includes("realisation")){
+
 
 const requeteUsers = fetch('realisation.json');
 requeteUsers
@@ -118,11 +118,31 @@ if(window.location.href.includes("realisation")){
 			// const titre=document.querySelector(".realPage h1");
 			
 			var i=0
-			var nbId = 0
+			
 			
 					for(i;i<resultat.length;i++){
 						const url=window.location.search
 						const detailUrl=url.split("=")
+						const UrlPrécédent=parseInt(detailUrl[1])-1;
+						const UrlSuivant=parseInt(detailUrl[1])+1;
+//**************************************************************************Code pour bouton suivant et précédent**************************************************************************//						
+						if(detailUrl[1]!=1 && detailUrl[1]<resultat.length){
+							const precedenteReal=detailUrl[0]+"="+UrlPrécédent;
+							const suivanteReal=detailUrl[0]+"="+UrlSuivant;
+							$("#right").attr("href", precedenteReal);
+							$("#left").attr("href", suivanteReal);
+						}
+						else if(detailUrl[1]==1){
+							const suivanteReal=detailUrl[0]+"="+UrlSuivant;
+							$("#right").hide();
+							$("#left").attr("href", suivanteReal);
+						}
+						else if(detailUrl[1]==resultat.length){
+							const precedenteReal=detailUrl[0]+"="+UrlPrécédent;
+							$("#right").attr("href", precedenteReal);
+							$("#left").hide();
+						}
+
 						if(!detailUrl[1]){
 							window.location.replace(window.location+"?id="+resultat.length)
 						}
@@ -169,44 +189,11 @@ if(window.location.href.includes("realisation")){
 							$(".realPage").css("background-position", "right 35% top 0");
 							
 						}
-
-						
 					
 					
 					}}})
 				
-			//Precedent Suivant
-			// var urltotale=window.location.href
-			// var urltotalesplitee=urltotale.split("?id=")
-			
-			
-			
-			// function idSuivant()
-			// {
-			
-			// 	var idNext=Number(urltotalesplitee[1])+1
-			// 	if(idNext > nbId){
-			
-			// 		window.location.replace("innovations.html")
-			// 	}
-			// 	else
-			// 	{
-			// 		window.location.replace(urltotalesplitee[0]+"?id="+idNext)
-			// 	}
-			// }
-			
-			// function idPrec()
-			// {
-			// 	var idNext=Number(urltotalesplitee[1])-1
-			// 	if(idNext <= 0){
-			
-			// 		window.location.replace("realisation.html")
-			// 	}
-			// 	else
-			// 	{
-			// 		window.location.replace(urltotalesplitee[0]+"?id="+idNext)
-			// 	}
-			// }
+
 	
 	
 	}
