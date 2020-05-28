@@ -61,6 +61,8 @@ requeteUsers
 					img.classList.add("pic")
 					document.querySelector(".pic"+pak).appendChild(img);
 					img.src =resultat[pak].miniature
+					img.alt =resultat[pak].titre
+					img.title =resultat[pak].titre
 				}
 		var voirPlus=document.querySelector(".btnplus")
 		voirPlus.addEventListener("click", ajoutervoirplus)

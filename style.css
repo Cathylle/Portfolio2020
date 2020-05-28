@@ -8,6 +8,23 @@ html{
     color: #102263;
     margin-top: 0;
 }
+
+
+.btn{
+    border-radius: 100px;
+    margin-top: 1rem;
+    background-color: #102263;
+    border: none;
+}
+
+.btn:hover{
+    border-radius: 100px;
+    margin-top: 1rem;
+    background-color: white;
+    border: 1px solid #102263;
+    color: #102263;
+}
+
 /************************************************************************************* HEADER **************************************************************************************/
 header{
     height: fit-content;
@@ -216,19 +233,13 @@ z-index: 1;
     
 }
 
-
-#apropos .textepropos{
-text-align: right;
+@media (min-width: 992px){
+    #apropos .textepropos{
+        text-align: right;
+        }
 }
 
-.competences{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 70%;
-    margin-left: auto;
-    padding-top: 15rem;
-}
+
 
 #apropos .pic{
     width: 150px;
@@ -236,6 +247,7 @@ text-align: right;
     background-color: teal;
     transform: rotate(45deg);
     margin: auto;
+    margin-top: 5rem;
 
 }
 .caption p{
@@ -248,9 +260,9 @@ text-align: right;
 
 .rocimg{
     position: absolute;
-width: 500px;
-    right: 69%;
-bottom: -15%;
+    width: 420px;
+    right: 60%;
+    bottom: -30%;
 }
 
 
@@ -272,8 +284,8 @@ margin-right: 0;
 }
 
 #real .boutontrav .pic{
-    width: 150px;
-    height: 150px;
+    width: 15em;
+    height: 15em;
     background-color: teal;
     border: white 5px solid;
     display: inline-block;
@@ -296,8 +308,6 @@ padding-top: 2rem;
 .pictureprez{
     padding: 0;
     margin-top: 15rem;
-    /* display: flex;
-    flex-wrap: wrap; */
     background-color: tomato;
     
 }
@@ -307,6 +317,20 @@ margin-bottom: 2rem;
     }
 
 
+
+    @media (max-width: 992px){
+        p{
+            text-align: left;
+            }
+        #apropos h2{
+            margin: auto;
+            margin-bottom:2rem ;
+            }
+        #real h2{
+            margin: auto;
+            margin-bottom:2rem ;
+                }
+    }
 /************************************************************************************* Contact **************************************************************************************/
 
 footer h2{
@@ -386,4 +410,8 @@ max-height: 100vh;
 }
 .realPage img{
     max-width: 100vw;
+}
+
+.carouWrap img{
+    margin: auto;
 }
