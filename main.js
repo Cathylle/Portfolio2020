@@ -33,70 +33,99 @@ function scrollAnchors(e, respond = null) {
 
 //**************************************************************************Code pour afficher les images des réalisations**************************************************************************//
 
+$.getJSON( "realisation.json")
+  .done(function( resultat ) {
+	console.log( "JSON Data: " + resultat[ 3 ].categ );
 
+	var pak=0;
+		var pakplus=8;
+		var voirPlus=$(".btnplus");
+		$(".btnplus").click(ajoutervoirplus);
 
-const requeteUsers = fetch('realisation.json');
-requeteUsers
-    .then(function(res) { return res.json() })
-    .then(function(resultat) {
+		for(pak;pak<pakplus;pak++){
+			affichermiatures();
+		}
+	function affichermiatures(){
+		// cree une box pour insérer les images
+		var box = $("<div></div>"); 
+		$(box).addClass(""+ resultat[pak].categ +""+[pak]);
+		$('.pictureprez').append(box);
+		// cree les liens et les mettre dans la box
+		const lienImg = $("<a></a>");
+		lienImg.addClass("col-md-3");
+		lienImg.addClass("col-sm-4");
+		lienImg.addClass("col-xs-6");
+		lienImg.addClass("pic"+pak);
+		$("."+resultat[pak].categ+""+[pak]).append(lienImg);
+		$(lienImg).attr("href","realisation.html?="+resultat[pak].id);
+		const img = $('<img></img>');
+		img.addClass("pic");
+		$(".pic"+pak).append(img);
+		$(img).attr("src",resultat[pak].miniature);
+		$(img).attr("alt",resultat[pak].titre);
+		$(img).attr("title",resultat[pak].titre);
+			if(pakplus>=resultat.length){
+				$(voirPlus).hide();
+			}}
 
-		var pak=0
-		var pakplus=8
-				// affiche les 8 premières images
-				for(pak;pak<pakplus;pak++){
-					// cree une box pour insérer les images
-					const box = document.createElement('div');
-					box.classList.add(""+resultat[pak].categorie+""+[pak]);
-					document.querySelector('.pictureprez').appendChild(box);
-
-					// cree les liens et les mettre dans la box
-					const lienImg = document.createElement('a');
-					lienImg.classList.add("col-md-3")
-					lienImg.classList.add("col-sm-4")
-					lienImg.classList.add("col-xs-6")
-					lienImg.classList.add("pic"+pak)
-					document.querySelector("."+resultat[pak].categorie+""+[pak]).appendChild(lienImg);
-					lienImg.href ="realisation.html?="+resultat[pak].id
-					const img = document.createElement('img');
-					img.classList.add("pic")
-					document.querySelector(".pic"+pak).appendChild(img);
-					img.src =resultat[pak].miniature
-					img.alt =resultat[pak].titre
-					img.title =resultat[pak].titre
+	function ajoutervoirplus(){
+			pakplus=pakplus+8;
+			if(pakplus>=resultat.length){
+				for(pak; pak<resultat.length; pak++){
+					affichermiatures();
 				}
-		var voirPlus=document.querySelector(".btnplus")
-		voirPlus.addEventListener("click", ajoutervoirplus)
+			}
+			else{
+				for(pak;pak<pakplus;pak++){
+					affichermiatures();
+				}
+			}}
 
-// affiche 8 images en plus quand on clique sur le bouton
-				function ajoutervoirplus(){
-					pakplus=pakplus+8
-					console.log(pakplus)
-					for(pak;pak<pakplus;pak++){
-						// cree une box pour insérer les images
-						const box = document.createElement('div');
-						box.classList.add(""+resultat[pak].categorie+""+[pak]);
-						document.querySelector('.pictureprez').appendChild(box);
-	
-						// cree les liens et les mettre dans la box
-						const lienImg = document.createElement('a');
-						lienImg.classList.add("col-md-3")
-						lienImg.classList.add("col-sm-4")
-						lienImg.classList.add("col-xs-6")
-						lienImg.classList.add("pic"+pak)
-						document.querySelector("."+resultat[pak].categorie+""+[pak]).appendChild(lienImg);
-						lienImg.href ="realisation.html?="+resultat[pak].id
-						const img = document.createElement('img');
-						img.classList.add("pic")
-						document.querySelector(".pic"+pak).appendChild(img);
-						img.src =resultat[pak].miniature
-					
+			$("#illuBtn").click(function(){
+				$('.pictureprez').empty();
+				for(pak=0;pak<resultat.length;pak++){
+					if(resultat[pak].categ=="illu"){
+						affichermiatures();
+						$(".btnplus").hide();
+					}
+				}
+			})		
 
-if(pakplus>=resultat.length){
-	voirPlus.style="display:none"
-}}}
+			$("#commuBtn").click(function(){
+				$('.pictureprez').empty();
+				for(pak=0;pak<resultat.length;pak++){
+					if(resultat[pak].categ=="commu"){
+						affichermiatures();
+						$(".btnplus").hide();
+					}
+				}
+				
 
-})
-}
+
+			})
+
+			$("#webBtn").click(function(){
+				$('.pictureprez').empty();
+				for(pak=0;pak<resultat.length;pak++){
+					if(resultat[pak].categ=="web"){
+						affichermiatures();
+						$(".btnplus").hide();
+					}
+				}
+			})
+
+			$("#toutBtn").click(function(){
+				$('.pictureprez').empty();
+				for(pak=0;pak<resultat.length;pak++){
+						affichermiatures();
+						$(".btnplus").hide();
+				}
+			})
+
+
+
+			
+		});}
 
 
 
@@ -153,13 +182,11 @@ if(window.location.href.includes("realisation")){
 
 						document.title= "CJ: "+resultat[i].titre;
 						$(".realPage h1").text(resultat[i].titre);
-						$(".textepropos").text(resultat[i].texte);
+						$(".textepropos").html(resultat[i].texte);
 
 						for(var j=0;resultat[i].photos[j];j++){
 							if(!resultat[i].photos[j].src.includes("youtube")){
-								if(j==0){
-
-									
+								if(j==0){	
 									var divCarou = $("<div class='item active'></div>").append("<img src='"+ resultat[i].photos[j].src +"'></img>");  
 								}
 								else{
@@ -176,7 +203,6 @@ if(window.location.href.includes("realisation")){
 									var divCarou = $("<div class='item embed-responsive embed-responsive-16by9'></div>").append(resultat[i].photos[j].src);  
 								}
 							}
-
 							$(".carousel-inner").append(divCarou)
 						}
 						if(j==1){
@@ -188,17 +214,8 @@ if(window.location.href.includes("realisation")){
 							$(".carouWrap").addClass("col-md-12");
 							$(".realPage").css("background-image", "url(/img/img-meduse.png");
 							$(".realPage").css("background-size", "calc(max(25%, 200px))");
-							$(".realPage").css("background-position", "right 35% top 0");
-							
-						}
-					
-					
-					}}})
-				
-
-	
-	
-	}
+							$(".realPage").css("background-position", "right 35% top 0");	
+						}}}})}
 
 
 

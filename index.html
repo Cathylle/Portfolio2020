@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<!-- Header -->
+<!--*********************************************************************************** Header *********************************************************************************** -->
     <header>
       <div class="container">
     <h1>Portfolio</h1>
@@ -50,7 +50,7 @@
 </div>
 </header>
 
-
+<!--*********************************************************************************** APROPOS *********************************************************************************** -->
     <section id="apropos">
     
 <div class="container">
@@ -59,34 +59,32 @@
     <h2>à propos</h2>
     <p class="textepropos col-md-8 col-xs-12 pull-right">Passionnée par le dessin et le graphisme, j’ai étudié l’Infographie en 2015 dans la Haute École Albert Jacquard, après avoir obtenu un bachelier universitaire en Psychologie et en Sciences de l’Éducation. Mon parcours atypique m’a permis d’exacerber mon empathie, mon sens de l’observation et d’analyse. Mes principales compétences concernent l’illustration faite sur ordinateur, la peinture digitale, la communication visuelle, la création de design et le développement de projet web, tant lié à l’apparence de l’interface qu’à l’expérience utilisateur.</p></div>
   
-
-
-
 <div class="competences pull-right col-md-8 col-xs-12 d-flex bd-highlight mb-3">
 
-  <div class="col-sm-4 p-2 bd-highlight">
+  <div class="col-sm-4 col-xs-12 p-2 bd-highlight">
     <div class="">
-      <div class="pic "></div>
+
         <div class="caption">
-          <p>Illustration</p>
+          <img src="img/illu_icon.svg" alt="Icone">
+          <p><b>Illustration</b></p>
         </div>
       </a>
     </div>
   </div>
   <div class="col-sm-4 p-2 bd-highlight">
     <div class="">
-      <div class="pic "></div>
+      <img src="img/commu_icon.svg" alt="Icone">
         <div class="caption">
-          <p>Communication visuelle</p>
+          <p><b>Communication visuelle</b> </p>
         </div>
       </a>
     </div>
   </div>
   <div class="col-sm-4 p-2 bd-highlight">
     <div class="">
-      <div class="pic "></div>
+      <img src="img/web_icon.svg" alt="Icone">
         <div class="caption">
-          <p>Web design</p>
+          <p><b>Web design</b> </p>
         </div>
       </a>
     </div>
@@ -97,17 +95,17 @@
     <img src="img/img-apropos.png">
 
 
-
+<!--*********************************************************************************** REALS *********************************************************************************** -->
     <section  id="real">
       <div class="container">
         <h2 >Réalisations</h2>
-        <p class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, accusantium nostrum labore dolor iste et, architecto quas velit repellat odio, dolorum eaque? Dignissimos dolores non, hic perferendis a beatae libero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet pariatur nesciunt autem natus, delectus consectetur cumque dolores aspernatur maxime ab quibusdam enim possimus perferendis minima inventore magni ullam magnam accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aut tempora itaque deleniti rem numquam est, magnam accusamus minus nemo reiciendis mollitia consequatur doloremque repellat error inventore voluptates, voluptatibus assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="col-md-8">Découvez sur ce site mes réalisations en illustration, communication visuelle, web et animation. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore laudantium sit culpa consectetur saepe veniam deleniti labore architecto dicta animi doloremque tempora, numquam, consequatur dolorum. Fugiat quod officiis expedita?</p>
         <img class="vaisseau col-md-6 hidden-xs hidden-sm" src="img/img-vaisseau.png">
-        <div class="col-md-6 boutontrav pull-right">
-        <div class="pic col-md-6"></div>
-        <div class="pic col-md-6"></div>
-        <div class="pic col-md-6"></div>
-        <div class="pic col-md-6"></div>
+        <div class="col-md-6 col-xs-12 boutontrav pull-right">
+        <div id="illuBtn" class="pic col-md-6 col-xs-2">Illustration</div>
+        <div id="commuBtn" class="pic col-md-6 col-xs-2">Communication Visuelle</div>
+        <div id="webBtn" class="pic col-md-6 col-xs-2">Web Design</div>
+        <div id="toutBtn" class="pic col-md-6 col-xs-2">Tout afficher</div>
       </div>
 
       </div>
@@ -121,8 +119,8 @@
 
 
 
-
-    <footer   id="contact">
+<!--*********************************************************************************** Footer *********************************************************************************** -->
+    <footer   id="contact container">
       <div class="container">
         <h2 class="col-xs-12">Contact</h2>
         <div class="container">
@@ -137,40 +135,28 @@
         
         <form class="col-md-5 col-xs-12" action="https://formspree.io/mvowklpg" method="POST">
             <div class="form-group">
-                <input type="name" name="Nom:" class="form-control" id="name" placeholder="Nom">
+                <input type="name" name="Nom"class="form-control" id="name" placeholder="Nom">
               </div>
-
-
             <div class="form-group">
-              <input type="email" name="Email" class="form-control" id="email" placeholder="E-mail">
+              <input type="email" name="Email" required class="form-control" id="email" placeholder="E-mail">
             </div>
-
-            
             <div class="form-group">
-                <input type="objet" name="Objet:" class="form-control" id="name" placeholder="Objet du mail">
+                <input type="objet" name="Objet" class="form-control" id="name" placeholder="Objet du mail">
             </div>
-
             <div class="form-group">
-                <textarea class="form-control" name="Message:" id="message" style="width:100%;" rows="10" placeholder="Message"></textarea>
+                <textarea class="form-control" required name="Message" id="message" style="width:100%;" rows="10" placeholder="Message"></textarea>
               </div>
-
-            <button type="submit" class="btn btn-primary pull-right">Envoyer</button>
-
-            
-
-
-
+            <p class="noPhp col-xs-12 text-right small pull-right"> With Formspree car Github n'aime pas le PHP</p>
+            <button type="submit" target="_blank" class="btn btn-primary pull-right">Envoyer</button>
           </form>
         </div>
         
           <div class="col-xs-2 socialMedia">
-      
             <a href="https://www.facebook.com/CathylleArt/" target="_blank"><img src="img/icon_facebook.svg" alt="Facebook"></a>
             <a href="https://www.linkedin.com/in/catherine-jouret-a11316149/" target="_blank"><img src="img/icon_linkedin.svg" alt="LinkedIn"></a>
             <a href="https://www.instagram.com/cathjrt/?hl=fr" target="_blank"><img src="img/icon_instagram.svg" alt="Instragram"></a>
           </div>
         </div>
-        
     </footer>
 
 <script src="main.js"></script>

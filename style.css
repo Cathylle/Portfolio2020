@@ -241,11 +241,10 @@ z-index: 1;
 
 
 
-#apropos .pic{
-    width: 150px;
-    height: 150px;
-    background-color: teal;
-    transform: rotate(45deg);
+#apropos .competences img{
+    max-width: 150px;
+    max-height: 150px;
+   display: block;
     margin: auto;
     margin-top: 5rem;
 
@@ -265,6 +264,10 @@ z-index: 1;
     bottom: -30%;
 }
 
+b{
+    color: #698fe0;
+    text-transform: capitalize;
+}
 
 /************************************************************************************* Realisations **************************************************************************************/
 #real{
@@ -284,15 +287,22 @@ margin-right: 0;
 }
 
 #real .boutontrav .pic{
-    width: 15em;
-    height: 15em;
-    background-color: teal;
-    border: white 5px solid;
-    display: inline-block;
+    margin-top: 1rem;
+    box-sizing: content-box;
+border: 6px white solid;
+    background-color: #698fe0;
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    /* border: 2px white solid; */
+    color: white;
+    text-transform: uppercase;
 }
 
 .boutontrav{
-padding-top: 2rem;
+padding-top: 5rem;
 
 }
 .meduse{
@@ -308,12 +318,13 @@ padding-top: 2rem;
 .pictureprez{
     padding: 0;
     margin-top: 15rem;
-    background-color: tomato;
     
 }
 .pictureprez .pic{
+  
 border-radius: 20%;
 margin-bottom: 2rem;
+
     }
 
 
@@ -360,6 +371,9 @@ footer .socialMedia img{
     margin-right: 2rem;
 }
 
+.noPhp{
+    color: white;
+}
 
 
 
@@ -414,4 +428,12 @@ max-height: 100vh;
 
 .carouWrap img{
     margin: auto;
+}
+
+.realPage .btn{
+margin-bottom: 5rem;
+}
+
+.carousel{
+    margin-bottom: 2rem;
 }
