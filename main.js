@@ -144,10 +144,38 @@ if(window.location.href.includes("realisation")){
 	requeteUsers
 		.then(function(res) { return res.json() })
 		.then(function(resultat) {
-
+affichermiatures()
 			// définir les zones de la page qui doivent changer
 			// const titre=document.querySelector(".realPage h1");
-			
+			function affichermiatures(){
+const pakhazList=[];
+				for(var pak=0;pak<4;pak++){
+
+var pakhaz=Math.round(Math.random()*(resultat.length-1))
+pakhazList.push(pakhaz);
+console.log(pakhazList);
+
+// cree une box pour insérer les images
+var box = $("<div></div>"); 
+$(box).addClass(""+ resultat[pakhaz].categ +""+[pakhaz]);
+$('.pictureprez').append(box);
+// cree les liens et les mettre dans la box
+const lienImg = $("<a></a>");
+lienImg.addClass("col-md-3");
+lienImg.addClass("col-xs-6");
+lienImg.addClass("pic"+pakhaz);
+
+$("."+resultat[pakhaz].categ+""+[pakhaz]).append(lienImg);
+$(lienImg).attr("href","realisation.html?="+resultat[pakhaz].id);
+const img = $('<img></img>');
+img.addClass("pic");
+$(".pic"+pakhaz).append(img);
+$(img).attr("src",resultat[pakhaz].miniature);
+$(img).attr("alt",resultat[pakhaz].titre);
+$(img).attr("title",resultat[pakhaz].titre);
+}} 
+
+
 			var i=0
 			
 			
@@ -209,13 +237,18 @@ if(window.location.href.includes("realisation")){
 							$(".carousel-indicators").hide();
 							$(".carousel-control").hide();
 						}
-						if(resultat[i].size==1){
-							$(".carouWrap").removeClass("col-md-6");
-							$(".carouWrap").addClass("col-md-12");
-							$(".realPage").css("background-image", "url(/img/img-meduse.png");
-							$(".realPage").css("background-size", "calc(max(25%, 200px))");
-							$(".realPage").css("background-position", "right 35% top 0");	
-						}}}})}
+						if(resultat[i].size==0){
+							$(".wrapgeneral").removeClass("container-fluid");
+							$(".wrapgeneral").addClass("container");
+							$(".textepropos").removeClass("col-lg-2");
+							$(".textepropos").removeClass("col-md-3");
+							$(".textepropos").addClass("col-md-3");
+							$(".pictureprez").removeClass("col-md-12");
+							$(".pictureprez").removeClass("col-lg-1");
+							$(".pictureprez").removeClass("col-sm-12");
+							$(".pictureprez").addClass("col-xs-12");
+						}
+					}}})}
 
 
 
