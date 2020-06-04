@@ -1,7 +1,7 @@
 //**************************************************************************Code pour smooth scrool**************************************************************************//
 
 //Code de https://perishablepress.com/vanilla-javascript-scroll-anchor/ //
-if(window.location.href.includes("index")){
+if(!window.location.href.includes("realisation")){
 (function() {
 	scrollTo();
 })();
