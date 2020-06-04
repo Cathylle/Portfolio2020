@@ -460,7 +460,7 @@ margin-bottom: 5rem;
 }
 
 @media (min-width:991px){
-    .row{
+    .realPage .row{
         display: flex;
         height: 30vw;
         margin-bottom: 5rem;
@@ -472,20 +472,20 @@ margin-bottom: 5rem;
         max-height: 30vw;
     }
     
-    .textepropos::-webkit-scrollbar {
+    .realPage .textepropos::-webkit-scrollbar {
         width: 10px;
       }
-      .textepropos::-webkit-scrollbar-track {
+      .realPage .textepropos::-webkit-scrollbar-track {
         background: #f1f1f1;
       }
-      .textepropos::-webkit-scrollbar-thumb {
+      .realPage .textepropos::-webkit-scrollbar-thumb {
         background: #06195d;
       }
-      .textepropos::-webkit-scrollbar-thumb:hover {
+      .realPage .textepropos::-webkit-scrollbar-thumb:hover {
         background: #555;
       }
       
-    .textepropos{
+      .realPage .textepropos{
         height: inherit;
         overflow-y: scroll ;
         margin: 0;
