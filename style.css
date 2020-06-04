@@ -510,9 +510,10 @@ margin-bottom: 5rem;
 }
 
 .realPage .pictureprez img{
-padding: 2rem;
   display: block;
   margin: auto;
+  margin-bottom: 2rem;
+  
 }
 
 @media (min-width:991px){

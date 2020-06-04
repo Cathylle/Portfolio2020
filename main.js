@@ -152,10 +152,10 @@ const pakhazList=[];
 				for(var pak=0;pak<4;pak++){
 
 var pakhaz=Math.round(Math.random()*(resultat.length-1))
-pakhazList.push(pakhaz);
-console.log(pakhazList);
-
-// cree une box pour insérer les images
+console.log(pak);
+if(!pakhazList.includes(pakhaz)){
+	pakhazList.push(pakhaz);
+	// cree une box pour insérer les images
 var box = $("<div></div>"); 
 $(box).addClass(""+ resultat[pakhaz].categ +""+[pakhaz]);
 $('.pictureprez').append(box);
@@ -173,6 +173,12 @@ $(".pic"+pakhaz).append(img);
 $(img).attr("src",resultat[pakhaz].miniature);
 $(img).attr("alt",resultat[pakhaz].titre);
 $(img).attr("title",resultat[pakhaz].titre);
+}
+else{
+	pak-=1
+}
+
+
 }} 
 
 
