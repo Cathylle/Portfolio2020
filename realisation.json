@@ -1,4 +1,16 @@
-[
+[{   "size": 0 ,
+    "titre":"Portfolio 2020",
+    "id":36,
+    "categ":"web",
+    "miniature":"img/COMMU/mini-cv.jpg",
+    "texte":"Description à venir",
+    "photos" : [
+        {"src":"img/COMMU/cv.jpg",
+            "alt":"Header du site du Salon Des Innovations Wallonnes",
+            "titre":"Salon Des Innovations Wallonnes"
+            }
+    ]
+},
     {   "size": 0 ,
         "titre":"Portfolio 2020",
         "id":35,
@@ -17,7 +29,8 @@
         "id":34,
         "categ":"web",
         "miniature":"img/WEB/mini-innoHeaderjpg.jpg",
-        "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie. En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie.",
+        "avec":"Céline Caron, <a href='http://guillaumecatteau.be/' target='_blank'>Guillaume Catteau</a>, Denis Fabel, <a href='https://www.behance.net/madeleinedistazio', target='_blank'>Madeleine Di Stazio</a>, <a href='https://blflament.wixsite.com/' target='_blank'>Blandine Flament</a>, <a href='www.florianhoussa.wixsite.com/book' target='_blank'>Florian Houssa</a>, <a href='https://ma-non-m.wixsite.com/portfolio' target='_blank'>Manon Moreau</a>, <a href=' dylanmortier@gmail.com' target='_blank'>Dylan Mortier</a>, <a href='benjaminpotie.webflow.io' target='_blank'>Benjamin Potie</a>",
+        "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie. En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement.",
         "photos" : [
             {"src":"img/WEB/illu_HeaderVisual.jpg",
                 "alt":"Header du site du Salon Des Innovations Wallonnes",
@@ -62,7 +75,9 @@
         "id":32,
         "categ":"illu",
         "miniature":"img/ILLU/HotSummerStage/mini-hotSummer.jpg",
-        "texte":"Stage 2017-2018 <br> Maitre de Stage: Simon Dupuis <br> Description à venir",
+        "texte":"J'ai réalisé mon stage de fin d'étude auprès de Simon Dupuis, pour son entreprise Studio64. Assistante multifonction, j'ai eu la chance de toucher un peu à tout: décors, charadesign, modelsheet, props et multiplan sur Toon Boom. <br> Ca a été une expérience très enrichissante et épanouissante qui m'a confortée dans mon désir de devenir infographiste. <br> Les décors ont été réalisés par François Spreutels. Je les ai colorisés et séparés en couches pour créer le multiplan. Au final, cette colorisation n'a pas été retenue et sera réétudiée pour adopter un style plus japonais et fidèle à l'inspiration de base: les estampes d'Hokusai. <br> Pour découvrir le projet et suivre son évolution, n'hésitez pas à rejoindre la page Facebook! ",
+        "avec":"<a href='http://studio64.be/' target='_blank'>Simon Dupuis</a>, <a href='https://www.spreutels-book.com/' target='_blank'>François Spreutels</a>",
+        "projet":"<a href='https://www.facebook.com/HotSummerAnimation/' target='_blank'>Facebook</a>",
         "photos" : [
             {"src":"img/ILLU//HotSummerStage/HS-01.jpg",
                 "alt":"Hot Summer-Travail de Stage",

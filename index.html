@@ -21,10 +21,26 @@
 
     <title>Portfolio</title>
 </head>
-<body>
+<body class="index">
 
 <!--*********************************************************************************** Header *********************************************************************************** -->
-    <header>
+<img id="burgerMenu" src="img/icon_menu.svg" alt="menu">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+  <ul class="nav navbar-nav pull-right">
+    <li><img id="croixmenu" src="img/icon_menucroix.svg" alt="Fermer le menu"></li>
+    <li><a href="#header">Acceuil</a></li>
+    <li><a href="#apropos">à propos </a></li>
+    <li><a href="#real">Réalisations </a></li>
+    <li><a href="#contact">Contact </a></li>
+    
+  </ul>
+</div>
+</nav>
+
+<header id="header">
       <div class="container">
     <h1>Portfolio</h1>
 
@@ -102,10 +118,10 @@
         <p class="col-md-8">Découvez sur ce site mes réalisations en illustration, communication visuelle, web et animation. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore laudantium sit culpa consectetur saepe veniam deleniti labore architecto dicta animi doloremque tempora, numquam, consequatur dolorum. Fugiat quod officiis expedita?</p>
         <img class="vaisseau col-md-6 hidden-xs hidden-sm" src="img/img-vaisseau.png">
         <div class="col-md-6 col-xs-12 boutontrav pull-right">
-          <img src="img/illu_icon2.svg" alt="illu" id="illuBtn" class="pic col-md-6 col-sm-2 col-xs-2">
-          <img src="img/commu_icon2.svg" alt="communication" id="commuBtn" class="pic col-md-6 col-sm-2 col-xs-2">
-          <img src="img/web_icon2.svg" alt="web" id="webBtn" class="pic col-md-6 col-sm-2 col-xs-2">
-          <img src="img/tout_icon2.svg" alt="tout" id="toutBtn" class="pic col-md-6 col-sm-2 col-xs-2">
+          <button id="illuBtn" class="btn pic col-md-6 col-sm-2 col-xs-2">LES ILLUSTRATIONS</button>
+          <button id="commuBtn" class="btn pic col-md-6 col-sm-2 col-xs-2">LA COMMUNICATION</button>
+          <button id="webBtn" class="btn pic col-md-6 col-sm-2 col-xs-2">LE WEB</button>
+          <button id="toutBtn" class="btn pic col-md-6 col-sm-2 col-xs-2">TOUT AFFICHER</button>
       </div>
 
       </div>
