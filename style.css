@@ -14,6 +14,7 @@ html{
     margin-top: 1rem;
     background-color: #102263;
     transition: ease-in-out .2s;
+    font-size: 16px;
 }
 
 .btn:hover{
@@ -75,8 +76,8 @@ nav .container{
         opacity: 0;
         margin: 25px;
         
-    }     
-    
+    }
+
     #croixmenu{
         height: 70px;
         width: 70px;
@@ -428,6 +429,10 @@ margin-bottom: 2rem;
 
     }
 
+.merEtRoc{
+    width: 100vw;
+}
+
 @media (max-width: 992px){
     p{
         text-align: left;
@@ -494,7 +499,49 @@ footer .socialMedia img{
     color: white;
 }
 
+#contact a{
+    color: #698fe0;
+    font-size: 16px;
+}
 
+#contact input{
+    font-size: 16px;
+}
+
+#contact textarea{
+    font-size: 16px;
+}
+
+@media (max-width:768px){
+    .encres a{
+        font-size: 3rem;
+    }
+    .encres li{
+       margin-bottom: 2rem;
+    }
+    .scroll{
+        display: none;
+    }
+    #real .boutontrav .pic{
+    font-size: 1.3rem;
+    }
+    #real img.pic{
+        width: 40vw;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width:543px){
+    .coordonnees{
+        text-align: center;
+        background-color: white;
+        border-radius: 2rem;
+        padding: 2rem;
+        box-sizing: border-box;
+
+    }
+}
 
 /************************************************************************************* RealPage **************************************************************************************/
 .realPage{
