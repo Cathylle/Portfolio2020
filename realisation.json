@@ -1,13 +1,40 @@
 [{   "size": 0 ,
-    "titre":"Portfolio 2020",
-    "id":36,
-    "categ":"web",
+    "titre":"Méduses Légères",
+    "id":38,
+    "categ":"illu",
+    "miniature":"img/ILLU/mini-photoMeduse.jpg",
+    "texte":"Photographie réalisée à Paradisio et traitée colorimétriquement sur Photoshop",
+    "photos" : [
+        {"src":"img/ILLU/photoMeduse.jpg",
+            "alt":"Des méduses sur un fond bleu",
+            "titre":"Méduses"
+            }
+    ]
+},
+    {   "size": 0 ,
+    "titre":"CV 2020",
+    "id":37,
+    "categ":"commu",
     "miniature":"img/COMMU/mini-cv.jpg",
-    "texte":"Description à venir",
+    "texte":"Comme tout document, le CV est un outil de communication visuelle. Afin de faire mouche, il doit refléter non seulement les compétences mais aussi la personnalité d’un candidat. <br> J’ai choisi de mettre en avant mon coté organisé, sérieux et méticuleux. Pour ce faire, j’ai opté pour le bleu foncé, le blanc et une touche de rose adoucissant le tout. <br> Afin d’optimiser, de structurer et d’aérer la mise en page, j’ai utilisé des icônes.",
     "photos" : [
         {"src":"img/COMMU/cv.jpg",
-            "alt":"Header du site du Salon Des Innovations Wallonnes",
-            "titre":"Salon Des Innovations Wallonnes"
+            "alt":"CV de 2020",
+            "titre":"Mon CV"
+            }
+    ]
+},
+    
+    {   "size": 0 ,
+    "titre":"Cercle débats UCLouvain FUCaM",
+    "id":36,
+    "categ":"web",
+    "miniature":"img/COMMU/mini-cercledébat.jpg",
+    "texte":"Il m'a été demandé de réaliser un logo pour le Cercle Débats UCLouvain FUCaM. <br> Le but d'un débat étant de défendre un point de vue, j'ai utilisé  l'ambiguité d'un chiffre particulier afin de symboliser la subjectivité. Cette idée ayant séduit le client, j'ai travaillé sur plusieurs variantes du visuel.",
+    "photos" : [
+        {"src":"img/COMMU/cercledébat.jpg",
+            "alt":"Proposition de logo pour le cercle de débat de UCL",
+            "titre":"Cercle débats UCLouvain FUCaM"
             }
     ]
 },
@@ -16,11 +43,11 @@
         "id":35,
         "categ":"web",
         "miniature":"img/WEB/mini-portfolio-illu.jpg",
-        "texte":"Ma formation web terminée, j'ai décidé de me créer un portfolio en utilisant mes nouvelles connaissances. C'était l'occasion d'appliquer mes compétences en HTML, CSS, Javascript mais aussi de découvrir d'autres langages comme Bootstrap, JQuery et PHP.",
+        "texte":"Suite à la formation en Web Design menée à Technocité, j’ai décidé d’approfondir mes compétences web grâce à des formations en ligne. J’ai ainsi appris un peu de Bootstrap, de JQuery et de PHP et, enthousiaste, j’ai démarré un nouveau projet afin d’appliquer et consolider ces connaissances : mon site web personnel. <br> Avant tout, j’ai rédigé mon briefing: je souhaitais me présenter, exposer mes réalisations et m’offrir une présence en ligne, dans l’objectif de retenir l’attention de recruteurs, de clients, de collaborateurs ou de professionnels dans le domaine de l’infographie. Cela en tête, j’ai songé qu’il serait pertinent d’afficher de manière évidente mon côté illustratrice. <br> Afin d’insuffler une ambiance agréable et significative à mon site, j’ai créé quelques moodboards et rassemblé des illustrations. Après quelques recherches, je me suis arrêtée sur un aspect graphique pur, simple et aéré. Le site ne serait que ponctué d’éléments graphiques décoratifs afin de ne pas étouffer le contenu principal. <br> J’ai alors sélectionné une palette de couleurs liées à mes valeurs: des nuances de bleu (liées au sérieux, au  web, au rêve et au respect), le rose (l’amour, la bienveillance, la légèreté) et le jaune (la création, la lumière, les idées).  <br> Mes objectifs en tête, j’ai élaboré des wireframes de la HomePage et des pages de présentation des réalisations, en réfléchissant à un parcours utilisateur simple et efficace. <br> Vient alors la partie liée au code : j’ai choisi d’utiliser Bootstrap et JQuery afin de me familiariser avec leur langage. Je génère les pages des réalisations à partir d’un fichier JSON. J’ai également tenté de créer le back-end du formulaire de contact, hélas, Github ne prend pas ce langage en charge…",
         "photos" : [
             {"src":"img/WEB/portfolio-illu.jpg",
-                "alt":"Header du site du Salon Des Innovations Wallonnes",
-                "titre":"Salon Des Innovations Wallonnes"
+                "alt":"Illustration de mon site",
+                "titre":"Sous la mer"
                 }
         ]
     },
@@ -30,7 +57,8 @@
         "categ":"web",
         "miniature":"img/WEB/mini-innoHeaderjpg.jpg",
         "avec":"Céline Caron, <a href='http://guillaumecatteau.be/' target='_blank'>Guillaume Catteau</a>, Denis Fabel, <a href='https://www.behance.net/madeleinedistazio', target='_blank'>Madeleine Di Stazio</a>, <a href='https://blflament.wixsite.com/' target='_blank'>Blandine Flament</a>, <a href='www.florianhoussa.wixsite.com/book' target='_blank'>Florian Houssa</a>, <a href='https://ma-non-m.wixsite.com/portfolio' target='_blank'>Manon Moreau</a>, <a href=' dylanmortier@gmail.com' target='_blank'>Dylan Mortier</a>, <a href='benjaminpotie.webflow.io' target='_blank'>Benjamin Potie</a>",
-        "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement. Participants à la formation : Guillaume Catteau, Céline Caron, Nadège Debailleux, Madeleine Di Stazio, Denis Fabel, Blandine Flament, Florian Houssa, Catherine Jouret, Manon Moreau, Dylan Mortier et Benjamen Potie. En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le site web n’est pas encore public mais j’ai hâte de pouvoir le présenter entièrement.",
+        "texte":"En octobre 2019, j’ai eu la chance de faire partie des 11 participants que Technocité et Design Innovation ont sélectionnés pour leur formation UX/Web design. Nous a été confiée la conception d’un site pour Le Salon Des Innovations Wallonnes. Ce projet nous a donné la chance d’expérimenter les différentes phases de création d’un site : analyse du briefing, de la demande et des besoins, brainstorming, création de personas, étude du parcours utilisateur, proposition de moodboard, sitemap, wireframe, codage HTML, CSS et Javacript, mise en ligne sur github… Le client souhaitait que le site soit géré via Wordpress mais comme la formation n’incluait pas de cours de Wordpress, une entreprise s’est chargée de terminer le projet.",
+        "projet":"<a href='https://www.innovationswallonnes.be/fr' target='_blank'>Site des Innovations Wallonnes</a>",
         "photos" : [
             {"src":"img/WEB/illu_HeaderVisual.jpg",
                 "alt":"Header du site du Salon Des Innovations Wallonnes",
@@ -43,7 +71,23 @@
             {"src":"img/WEB/bernard.jpg",
             "alt":"Persona",
             "titre":"Bernard"
-            }
+            },
+            {"src":"img/WEB/boutons.jpg",
+                "alt":"Moodboard des icones et boutons",
+                "titre":"Moodboard"
+                },
+            {"src":"img/WEB/buisness.jpg",
+                "alt":"Proposition de Moodboard Buisness",
+                "titre":"Moodboard"
+                },
+            {"src":"img/WEB/minimal.jpg",
+                "alt":"Proposition de Moodboard Minimaliste",
+                "titre":"Moodboard"
+                },
+            {"src":"img/WEB/couleurs.jpg",
+                "alt":"Proposition de Moodboard Couleur",
+                "titre":"Moodboard"
+                }
         ]
     },
     {   "size": 1 ,
@@ -51,7 +95,7 @@
         "id":33,
         "categ":"commu",
         "miniature":"img/COMMU/TFE/mini-TFE-Couverture.jpg",
-        "texte":"Description à venir",
+        "texte":"C’est dans le cadre de mes études d’infographie à la Haute École Albert Jacquard, section Animation/Illustration 2D, que j’ai réalisé « L’Héritage » afin de clôturer trois années d’apprentissage et témoigner du savoir-faire engrangé. <br> Les étudiants devaient produire soit un film d’animation, soit un livre d’illustration ou une bande dessinée. Compte tenu de mon profil d’illustratrice, j’ai naturellement opté pour le livre. Ce choix implique la conception de trente-six illustrations soignées et d’une solide trame scénaristique. <br>Au travers de l’histoire d’Anna j’aborde des thèmes comme le deuil, l’héritage que nous laisse nos proches disparut, les études, la peur de l’échec et l’importance de nos influences. <br> <span> L’histoire</span><br>« L’Héritage » illustre l’histoire d’Anna, une jeune étudiante en médecine. Elle veut suivre les traces de sa mère, Éveline, et devenir vétérinaire. Elle se ne parvient plus à trouver la concentration nécessaire pour assimiler les matières de ses cours. Ainsi bloquée psychologiquement, elle perd confiance en elle et se trouve prête à tout abandonner. <br> Heureusement, elle trouve un certain réconfort auprès de son perro¬quet, Plum. Elle se souvient que sa mère le lui avait offert quand elle était encore toute petite. <br> Cependant, l’oiseau profite du fait qu’Anna le nourrit pour s’évader de sa cage et s’envoler vers la forêt. Désespérée, Anna n’hésite pas à sauter par la fenêtre. Elle l’appelle. Elle lui promet des graines. En vain. Elle décide alors de le poursuivre dans les bois, afin d’essayer de le rattraper. <br> Anna découvre alors avec stupeur des scènes étranges, souvenirs de son passé avec sa mère. Et voilà les reflets d’un temps révolu qui se succèdent… Les voilà toutes les deux quand elles ont recueilli un oisillon. Les voici quand elles se sont occupées d’un chien amputé. Les images fugitives disparaissent et laissent Anna dans le désespoir et la solitude. Elle s’adresse à son oiseau posé non loin, sur une branche. Mais que veut-il donc ? À ce moment, Plum s’envole et guide Anna jusqu’au centre de la forêt. Elle y découvre un lapin avec une patte cassée.  <br> Elle s’effondre, convaincue de son inutilité, tandis que Plum bat des ailes. Il s’embrase soudainement et, dans les flammes, la mère apparaît pour encourager sa fille. « Je crois en toi ! », lui murmure-t-elle. Anna retrouve alors confiance en elle et passe à l’action. À l’aide d’un bout de bois et de son lacet, elle soigne l’animal blessé et improvise une attelle. L’opération se passe pour le mieux. Évelyne semble paisible et Anna, plus sereine. Quant au lapin, il paraît ne plus souffrir. L’apparition surnaturelle disparaît définitivement. Anna demeure devant les résidus fumants de l’oiseau. <br> Mais le petit tas de cendres se soulève… Il se rassemble… Il forme une nouvelle créature… Un phénix apparaît. <br> Le lapin dans les bras, Anna quitte les bois, guidée par le phénix, et, parvenu à l’orée, lui fait ses adieux. <br> Devenue vétérinaire, la jeune femme exerce sin métier avec passion et bienveillance, comme sa mère",
         "photos" : [
             {"src":"img/COMMU/TFE/TFE-Couverture.jpg",
                 "alt":"Couverture de l'Héritage",
@@ -106,12 +150,45 @@
     {   "size": 1 ,
         "titre": "Comic Diner",
         "id":31,
+        "avec": "Antoine Lantonnois, Johan Godefroid, Manon Moreau, Mara Ferroni, Nathan Doppagne, Sophie Lambert",
         "categ":"web",
         "miniature":"img/VIDEO/mini-comicDinner.jpg",
-        "texte":"Au cours de la deuxième année d'infographie, un workshop d'une semaine a été réalisé. Le but était de repousser nos limites, d'utiliser différents outils, de comprendre comment développer un projet avec une communication graphique innovante et accrocheuse tout en fonctionnant en groupe. Le défis a été remporté avec succès grâce à la cohésion, le sérieux, l'organisation et la bonne humeur de chacun.Travail réalisé par Antoine Lantonnois, Catherine Jouret, Johan Godefroid, Manon Moreau, Mara Ferroni, Nathan Doppagne, Sophie Lambert",
-        "photos" : [
+        "texte":"Au cours de la deuxième année d'infographie, un workshop d'une semaine a été réalisé. Le but était de repousser nos limites, d'utiliser différents outils, de comprendre comment développer un projet avec une communication graphique innovante et accrocheuse tout en fonctionnant en groupe. Le défi a été remporté avec succès grâce à la cohésion, le sérieux, l'organisation et la bonne humeur de chacun.",
+        "photos": [{"src":"img/WEB/TPAP-1.jpg",
+            "alt":"Logo",
+            "titre":"Comic Dinner"
+            },
             {"src":"<iframe src='https://www.youtube.com/embed/RNIoh3YIZJE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+                },
+            {"src":"<iframe src='https://www.youtube.com/embed/rW0i3fFfEIg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {"src":"<iframe src='https://www.youtube.com/embed/LZle7hC8tSM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {"src":"img/WEB/TPAP-2.jpg",
+                "alt":"Services",
+                "titre":"Comic Dinner"
+                },
+            {"src":"img/WEB/TPAP-3.jpg",
+                "alt":"Services",
+                "titre":"Comic Dinner"
+                },
+            {"src":"img/WEB/TPAP-4.jpg",
+                "alt":"Services",
+                "titre":"Comic Dinner"
+                },
+            {"src":"img/WEB/TPAP-5.jpg",
+                "alt":"Affiches",
+                "titre":"Comic Dinner"
+                },
+            {"src":"img/WEB/TPAP-6.jpg",
+                "alt":"Affiches",
+                "titre":"Comic Dinner"
+                },
+            {"src":"img/WEB/TPAP-7.jpg",
+                "alt":"Carte de visite",
+                "titre":"Comic Dinner"
                 }
+                   
         ]
     },
     {   "size": 0 ,
@@ -119,7 +196,7 @@
         "id":30,
         "categ":"commu",
         "miniature":"img/COMMU/mini-ABC.jpg",
-        "texte":"Description à venir",
+        "texte":"Il a été demandé de réaliser un travail d’illustration d’un abécédaire. Le briefing laissait une grande marge de manœuvre par rapport à la technique ou l’aspect graphique. Je me suis donc lâchée et ai fait des expérimentations avec de l’encre de chine, de l’eau et des touches d’aquarelle. Le tout a été traité sur Photoshop. <br> D’humeur chaotique durant la réalisation du projet, le résultat est sombre et envoûtant.",
         "photos" : [
             {"src":"img/COMMU/ABC.jpg",
                 "alt":"Abécédaire",
@@ -133,7 +210,7 @@
         "id":29,
         "categ":"commu",
         "miniature":"img/COMMU/mini-AJ-CarteVisite.jpg",
-        "texte":"Description à venir",
+        "texte":"Carte de visite réalisée pour mon Papa, Professeur, Historien et Écrivain. Ces facettes, principalement liées au temps qui s’écoule, m’a fait penser aux horloges, aux cycles et à la transmission et m’évoquait un bleu profond, sombre et envoûtant. J’ai tenté de retranscrire tout cela dans ce visuel.",
         "photos" : [
             {"src":"img/COMMU/AJ-CarteVisite.jpg",
                 "alt":"Carte de visite dédiée à Alain Jouret",
@@ -146,7 +223,7 @@
         "id":28,
         "categ":"commu",
         "miniature":"img/COMMU/mini-CJ-CarteVisite.jpg",
-        "texte":"Description à venir",
+        "texte":"Prototype de carte de visite réalisée en 2018. L’utilisation du noir et blanc rend l’impression moins coûteuse et offre un aspect élégant et épuré. De plus, j’aime particulièrement la texture qu’apportait l’encre de chine.",
         "photos" : [
             {"src":"img/COMMU/CJ-CarteVisite.jpg",
                 "alt":"Carte de visite dédiée à Catherine Jouret",
@@ -160,7 +237,7 @@
         "id":27,
         "categ":"illu",
         "miniature":"img/ILLU/mini-encreDeChineEffet.jpg",
-        "texte":"Description à venir",
+        "texte":"Expérience réalisée avec de l’encre de chine et de l’eau. L’encre a une manière étonnante de se diffuser dans l’eau, offrant une texture mystérieuse. Un traitement sur Photoshop m'a permis d’en intensifier et magnifier le relief.",
         "photos" : [
             {"src":"img/ILLU/encreDeChineEffet.jpg",
                 "alt":"Recherche graphique: mélange d'eau et d'encre de chine sur du papier",
@@ -174,7 +251,7 @@
         "id":26,
         "categ":"illu",
         "miniature":"img/ILLU/mini-selAquarelle.jpg",
-        "texte":"Description à venir",
+        "texte":"Expérience réalisée avec de l’aquarelle et du sel. J’ai scanné le papier et ai traité l’image sur Photoshop pour affirmer la texture et son relief.  <br> Il s’agit de la couverture de « 7 », un livre regroupant des images abstraites réalisées en cours.",
         "photos" : [
             {"src":"img/ILLU/selAquarelle.jpg",
                 "alt":"Recherche graphique: mélange d'eau , d'aquarelle et de sel",
@@ -189,7 +266,7 @@
         "id":25,
         "categ":"illu",
         "miniature":"img/ILLU/mini-snowTempest.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/snowTempest.jpg",
                 "alt":"Garçon masqué perdu dans une tempête de neige",
@@ -203,7 +280,7 @@
         "id":24,
         "categ":"illu",
         "miniature":"img/ILLU/mini-snow.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/snow.jpg",
                 "alt":"Petite route plongée dans le noir et sapin enneigé",
@@ -217,7 +294,7 @@
         "id":23,
         "categ":"illu",
         "miniature":"img/ILLU/mini-portraitPunk.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/portraitPunk.jpg",
                 "alt":"Jeune fille aux cheveux bleuté",
@@ -231,7 +308,7 @@
         "id":22,
         "categ":"illu",
         "miniature":"img/ILLU/mini-portraitCalme.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/portraitCalme.jpg",
                 "alt":"Fille aux cheveux gris",
@@ -245,7 +322,7 @@
         "id":21,
         "categ":"illu",
         "miniature":"img/ILLU/mini-portraitSerein.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/portraitSerein.jpg",
                 "alt":"Fille blonde avec des chignons",
@@ -258,7 +335,7 @@
         "id":20,
         "categ":"illu",
         "miniature":"img/ILLU/mini-illu-arc.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/illu-arc.jpg",
                 "alt":"Paysage avec un monument en pierre qui forme un arc",
@@ -272,7 +349,7 @@
         "id":19,
         "categ":"illu",
         "miniature":"img/ILLU/mini-chaperon.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration réalisée sur Photoshop. Le briefing de base imposait l’utilisation de 3 couleurs et leurs dégradés ainsi qu’une composition par le vide et la gestion d’une source lumineuse. J’ai créé des brush Photoshop moi-même pour les arbres et ai adoré dessiner le loup!",
         "photos" : [
             {"src":"img/ILLU/chaperon.jpg",
                 "alt":"Fillette qui se promène dans une forêt, un loup à ses trousses",
@@ -286,7 +363,7 @@
         "id":18,
         "categ":"illu",
         "miniature":"img/ILLU/mini-cactus.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration réalisée sur Photoshop. <br>Il s’agit d’une étude sur la profondeur de champs et la perspective: plus c’est loin, plus c’est flou et plus c’est teinté par la couleur du ciel!",
         "photos" : [
             {"src":"img/ILLU/cactus.jpg",
                 "alt":"Cactus et scorpion dans un désert",
@@ -298,9 +375,10 @@
     {   "size": 1 ,
         "titre": "Mythologie",
         "id":17,
+        "avec":"Manon Moreau",
         "categ":"commu",
         "miniature":"img/COMMU/mini-Mythologie3.jpg",
-        "texte":"Description à venir",
+        "texte":"Combinaison d’une illustration que j’ai réalisée et de celle de Manon dans le cadre d’un cours de mise en page.",
         "photos" : [
             {"src":"img/COMMU/Mythologie3.jpg",
                 "alt":"Livre sur la mythologie posé sur la table",
@@ -314,7 +392,7 @@
         "id":16,
         "categ":"illu",
         "miniature":"img/ILLU/mini-meduses.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration personnelle réalisée en test pour un workshop. Les brushes utilisées ont été réalisées à la main  grâce à de la gravure et de la gouache. La texture est très intéressante. J’ai conservé les brushes et les réutilise régulièrement!",
         "photos" : [
             {"src":"img/ILLU/meduses.jpg",
                 "alt":"Des méduses roses qui se promènent à travers la mer",
@@ -325,9 +403,10 @@
     {   "size": 1 ,
         "titre": "Bloom to the moon",
         "id":15,
-        "categ":"illu",
         "miniature":"img/ILLU/workshopTampon/mini-workshop.jpg",
-        "texte":"Description à venir",
+        "categ":"illu",
+        "avec":"<a href='https://www.facebook.com/people/Louise-Ectors/100010345269799' target='_blank'>Louise Ectors</a>, <a href='https://ma-non-m.wixsite.com/portfolio' target='_blank'>Manon Moreau</a>, <a href='https://solene-michel.weebly.com/' target='_blank'>Solène Michel</a>",
+        "texte":"Bloom to the Moon est un workshop réalisé en groupe. <br> Le but était de réaliser un livre en accordéon et imposait le thème de la métamorphose ou de l’évolution. <br> Nous avons réalisé des tampons grâce à de la gravure et de la gouache. Cela offre un visuel riche et texturé. Une fois les tampons réalisés, nous les avons scannés avec une très haute résolution et transformés en brush sur Photoshop. Alors, nous avons composé nos images, appliqué des couleurs et enrichit la texture.",
         "photos" : [
             {"src":"img/ILLU/workshopTampon/workshop-couverture1.jpg",
                 "alt":"Couverture",
@@ -356,7 +435,7 @@
         "id":14,
         "categ":"illu",
         "miniature":"img/VIDEO/mini-videoPresentation.jpg",
-        "texte":"Description à venir",
+        "texte":"La  réalisation de cette vidéo  m’a permis d’appliquer beaucoup de techniques de création et de montage : gestion de fond vert, animation sur TVPaint, animation sur After Effect, montage du son… Ce projet a été éprouvant et chronophage mais extrèmement enrichissant!",
         "photos" : [
             {"src":"<iframe width='560' height='315' src='https://www.youtube.com/embed/UHW0TB0uAfg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
                 }
@@ -368,7 +447,7 @@
         "id":13,
         "categ":"illu",
         "miniature":"img/ILLU/mini-photoMontageSnail.jpg",
-        "texte":"Description à venir",
+        "texte":"Ce petit escargot en peine visite touristique est le résultat d’un photomontage et un traitement graphique sur Photoshop.",
         "photos" : [
             {"src":"img/ILLU/photoMontageSnail.jpg",
                 "alt":"Photomontage d'un escargot en visite touristique",
@@ -382,7 +461,8 @@
         "id":12,
         "categ":"illu",
         "miniature":"img/VIDEO/mini-Snaily.jpg",
-        "texte":"Description à venir",
+        "texte":"« Snaily » est un projet d’animation réalisé en stop-motion. L’objectif était de découvrir cette technique avec deux supports et de créer une boucle de l’animation. Nous avons choisi la pâte à modeler et le papier. <br> Notre groupe de travail souhaitait également rendre hommage à la belle ville de Namur et a choisi, comme protagoniste, un petit escargot qui explore les contrées namuroises. <br> Tout d’abord, nous avons fabriqué des petits Snaily en pâte à modeler dans ses différentes positions et formes : de la petite boule bleue à notre remarquable gastéropode. Nous avons numéroté chaque modelage afin de ne pas nous tromper dans l’ordre des frames. Puis, nous avons aussi créé son animation sur des post-it. <br> Nous avons cherché dans Namur des endroits intéressant afin de mettre notre héros en scène. Nous nous sommes donc d’abord arrêtées au parc. L’automne offrait un spectacle orangé, contraste parfait avec notre petit escargot bleu. Plusieurs passants ont été intrigués par notre travail. L’un d’entre eux nous a d’ailleurs montré son tatouage d’escargot sur son pied. <br> Notre deuxième lieu de tournage fut la citadelle de Namur. Ce changement de décors donnerait du rythme à notre film et permettrait une ellipse rafraichissante. Notre but était de photographier les post-it sur place, cependant le vent et la pluie nous ont obligées à modifier notre programme. Nous avons décidé de prendre en photo du décor et d’ajouter les post-it au montage. Pour cela nous les avons capturés sur un fond vert. <br> Le montage s’est réalisé en plusieurs étapes : la colorisation sur Lightroom, le cleaning du fond vert et le détourage sur Photoshop et Première, pour ensuite réaliser l’assemblage des images pour en faire une animation fluide et cohérente sur Adobe Première. Enfin, nous avons réalisé le compositing sur After Effect. <br>Nous avons beaucoup travaillé sur le workshop. Par ailleurs, nous en avons également profité pour passer de bons moments ensemble. Notre groupe avait une belle cohésion et chacune a pu y trouver sa place.",
+        "avec":"<a href='https://www.facebook.com/people/Louise-Ectors/100010345269799' target='_blank'>Louise Ectors</a>, <a href='https://ma-non-m.wixsite.com/portfolio' target='_blank'>Manon Moreau</a>, <a href='https://solene-michel.weebly.com/' target='_blank'>Solène Michel</a>",
         "photos" : [
             {"src":"<iframe width='560' height='315' src='https://www.youtube.com/embed/dyF3AV25nB8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 
@@ -396,7 +476,7 @@
         "id":11,
         "categ":"illu",
         "miniature":"img/ILLU/mini-lapin.jpg",
-        "texte":"Description à venir",
+        "texte":"Ca travail a été réalisé dans le cadre d’un workshop valorisant la récupération d’objets. Il consistait à appliquer la théorie des géons. En effet, toute forme complexe est composée formes simples. Grâce à notre imagination et esprit d’analyse, nous avons pu créer un lapin et une grand-mère à partir de cuillères, de tasses de café en plastiques, de boutons… <br> Nous avons ensuite un décors et une mise en scène offert à nos personnages: le petit lapin qui volait des carottes dans le jardin de la grand-mère. <br> Après quelques prises de vue, nous avons traité l’image sur Photoshop afin d’en intensifier les couleurs ",
         "photos" : [
             {"src":"img/ILLU/lapin.jpg",
                 "alt":"Un lapin et une vieille madame près d'une maison",
@@ -410,7 +490,7 @@
         "id":10,
         "categ":"illu",
         "miniature":"img/ILLU/Inktober/mini-inktober-tranche.jpg",
-        "texte":"Description à venir",
+        "texte":"L’Inktober est un évènement annuel qui dure tout le mois d’octobre. Il consiste à réaliser un dessin par jour.  C’est un défi de taille qui demande rigueur et discipline. Je suis fière d’être parvenue à le relever. Voici quelques-unes des meilleures réalisations que j’ai faites en 2018.",
         "photos" : [
             {"src":"img/ILLU/Inktober/inktober-tranche.jpg",
                 "alt":"Petite sorcière en couleur",
@@ -478,7 +558,7 @@
         "id":9,
         "categ":"illu",
         "miniature":"img/ILLU/TFA/mini-evasion-E3.jpg",
-        "texte":"Description à venir",
+        "texte":"L’Évasion est mon travail de fin d’année. <br> Il nous a été demandé de réaliser un scénario, 15 illustrations minimum, la mise en page, l’impression et la reliure. Travail d’envergure, mes professeurs m’ont aidée à élaborer un scénario sympathique : <br> Une petite fille vivant dans un monde teinté de gris se rend avec ses parents au musée des couleurs. Elle se rend compte que le portait d’un petit garçon s’anime. Ce dernier l’invite à monter dans sa peinture colorée pour jouer avec ses lapins. La fillette entre. Le petit garçon en profite pour sortir du tableau, laissant la fillette prisonnière. Il court vers l’extérieur et découvre la pluie. Curieux, il tend la main. Et… Stupéfaction: ses couleurs fondent et disparaissent. Paniqué, il retourne dans son tableau. La fillette bande sa main grâce à ses rubans. Vient ensuite le moments des adieux et la fillette sort du tableau avec un petit souvenir : ses joues sont devenues roses.",
         "photos" : [
             {"src":"img/ILLU/TFA/evasion-E3.jpg",
                 "alt":"Petite fille qui bande la main d'un petit garçon",
@@ -503,7 +583,7 @@
         "id":8,
         "categ":"commu",
         "miniature":"img/COMMU/MrLinh/mini-linh.jpg",
-        "texte":"Description à venir",
+        "texte":"Dans le cadre d’un cours de mise en page, il nous a été demandé de réaliser un carton d’invitation et une affiche pour un spectacle à venir. Ayant lu « la Petite Fille de Monsieur Linh » et en avoir gardé un souvenir marquant, j’ai tout de suite choisi de représenter cette pièce. Je préfère ne rien dévoiler du scénario, n’hésitez pas à dévorer le livre!",
         "photos" : [
             {"src":"img/COMMU/MrLinh/afficheLinh.jpg",
                 "alt":"Affiche avec une illustration de banc et de bombes",
@@ -523,7 +603,7 @@
         "id":7,
         "categ":"commu",
         "miniature":"img/COMMU/Menu/mini-depliant.jpg",
-        "texte":"Description à venir",
+        "texte":"Menu réalisé dans le cadre du cours de mise en page, sur Indesign.",
         "photos" : [
             {"src":"img/COMMU/Menu/depliant-1.jpg",
                 "alt":"Menu dépliant, recto",
@@ -543,7 +623,7 @@
         "id":6,
         "categ":"illu",
         "miniature":"img/ILLU/mini-pied-dans-le-plat.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration réalisée sur Corel Painter. Le thème était la représentation d’une expression française. Je suis spontanément sortie de ma zone de confort en créant le personnage d’un petit chien anthropomorphe.",
         "photos" : [
             {"src":"img/ILLU/pied-dans-le-plat.jpg",
                 "alt":"Petit chien anthropomorphe dans un plat",
@@ -557,7 +637,7 @@
         "id":5,
         "categ":"illu",
         "miniature":"img/ILLU/mini-natoo.jpg",
-        "texte":"Description à venir",
+        "texte":"Cette illustration représente Natoo. En 2016 sortait le clip musical « Friendzone ». L’une des frames du clip m’a parue splendide et j’ai eu envie d’en faire un dessin. Celui-ci s’est avéré ardu mais m’a permis de repousser mes limites, d’oser des rendus moins lisses et plus brutes.",
         "photos" : [
             {"src":"img/ILLU/natoo.jpg",
                 "alt":"Illustration de Natoo avec un grand chapeau de paille",
@@ -572,7 +652,7 @@
         "id":4,
         "categ":"commu",
         "miniature":"img/COMMU/mini-UMONS.jpg",
-        "texte":"Description à venir",
+        "texte":"Au cours de ma dernière année à l’université de Mons, j’ai réalisé un TFE. Le thème global ciblait l’égalité, l’iinégalité, l’équité et l’inéquité. J’avais choisi de baser mes recherches sur les potentiels différents traitements des enfants au sein d’une même fratrie. Existe-t-il un enfant préféré?<br> Suite à mes études d’infographie, j’ai songé qu’il serait intéressant de ressortir ce travail et de l’utiliser comme prétexte pour m’entraîner à la mise en page sur Indesign.",
         "photos" : [
             {"src":"img/COMMU/UMONS.jpg",
                 "alt":"Mise en page pour mon TFE de Psychologie",
@@ -587,7 +667,7 @@
         "id":3,
         "categ":"illu",
         "miniature":"img/ILLU/mini-tableau.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration réalisée avec photoshop. <br> Il s’agit du résultat d’une recherche d’un nouveau style graphique. Tentant de sortir de ma zone de confort, j’ai tenté une approche plus sobre, sans modelés ou textures.",
         "photos" : [
             {"src":"img/ILLU/tableau.jpg",
                 "alt":"Petite fille grise devant un tableau de couleur",
@@ -600,7 +680,7 @@
         "id":2,
         "categ":"illu",
         "miniature":"img/ILLU/mini-muffin.jpg",
-        "texte":"Description à venir",
+        "texte":"Illustration réalisée avec Illustrator en vue de la création d’une animation d’apparition et de disparition. Le personnage, affamé voit soudainement apparaître une maison de bonbon, mais alors qu’elle s’en approche, l’illusion repart aussi vite qu’elle est arrivée!",
         "photos" : [
             {"src":"img/ILLU/muffin.jpg",
                 "alt":"Fillette devant une maison de bonbon",
@@ -613,7 +693,7 @@
         "id":1,
         "categ":"commu",
         "miniature":"img/COMMU/RechercheLogo/mini-logoSearch.jpg",
-        "texte":"Description à venir",
+        "texte":"Voici deux planches de recherche en vue de réaliser un logo afin de m’offrir une identité visuelle.<br> A l’époque, j’utilisais beaucoup le vert. Cette couleur me semblait apaisante, positive et portait en elle tout un symbole du renouveau.",
         "photos" : [
             {"src":"img/COMMU/RechercheLogo/logoSearch.jpg",
                 "alt":"Recherche de logo",

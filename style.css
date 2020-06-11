@@ -176,6 +176,12 @@ h1{
     width: 3rem;
     display: block;
     margin-top: 2rem;
+    transition: ease-in-out .1s;
+    opacity: 50%;
+}
+
+.socialMedia img:hover{
+    opacity: 100%;
 }
 
 h3{
@@ -194,7 +200,7 @@ h3{
 .scroll{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    border: #ffffff 2px solid;
+    border: #ffffff 3px solid;
     border-radius: 40%;
     width: 35px;
     height: 50px;
@@ -223,7 +229,7 @@ h3{
     content: "";
     width: 5px;
     height: 8px;
-    border: #ffffff 2px solid;
+    border: #ffffff 3px solid;
     position: absolute;
     border-radius: 100%;
     margin: 40% 40%;
@@ -234,8 +240,8 @@ h3{
     content: "";
     width: 15px;
     height: 15px;
-    border-top: #ffffff 2px solid;
-    border-right: #ffffff 2px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #ffffff 3px solid;
     position: absolute;
     top: 45px;
     right: -5px;
@@ -734,6 +740,12 @@ footer .socialMedia img{
   margin-bottom: 2rem;
 }
 
+@media (max-width:768px){
+    img.pic{
+    width: 40vw;
+    }
+}
+
 @media (min-width:992px){
     .realPage .container-fluid{
         margin-left: 12%;
@@ -776,6 +788,13 @@ footer .socialMedia img{
         background: #698fe0;
     }
 }
+
+.realPage p span{
+    display: block;
+ margin: 30px auto 0 auto;
+ text-align: center;
+    font-weight: bolder;
+}
     
 @media (max-width: 992px){
     .item img{
@@ -783,10 +802,7 @@ footer .socialMedia img{
         margin: auto;
 
     }
-
 }
-
-
 /************************************************************************************* MODAL **************************************************************************************/
 .modal-header{
     border: none;
@@ -797,6 +813,7 @@ footer .socialMedia img{
 }
 
 .modal-content{
+    margin: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.938);
@@ -809,15 +826,14 @@ footer .socialMedia img{
     position: absolute;
     right: 0;
     display: block;
-    /* display: block;
-    margin-left: auto;
-    margin-right: 25px; */
     cursor: pointer;
-    z-index: 100;
+    z-index: 200;
 }
 
 .modal-body img{
     max-height: 90vh;
+    max-width: 90vw;
     display: block;
     margin: auto;
+    padding-top: 70px;
 }

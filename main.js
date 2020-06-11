@@ -238,13 +238,15 @@ else{
 							if(!resultat[i].photos[j].src.includes("youtube")){
 								if(j==0){	
 									
-									var divCarou = $("<div class='item active'></div>").append("<img src='"+ resultat[i].photos[j].src +"'></img>");
+									var divCarou = $("<div class='item active'></div>").append("<img src='"+ resultat[i].photos[j].src +"' alt='"+resultat[i].photos[j].alt+"''></img>");
+
 									$(".btnModal").show();  
 									$(".carouWrap").css("margin-left","auto");
 									$(".carouWrap").css("margin-right","auto");
 									$(".modal-body img").attr("src", resultat[i].photos[j].src);
 									$(".modal-body img").attr("alt", resultat[i].photos[j].alt);
-								}
+
+									}
 								else{
 									var divCarou = $("<div class='item'></div>").append("<img src='"+ resultat[i].photos[j].src +"'></img>");  
 									$(".carousel-indicators").append('<li data-target="#myCarousel" data-slide-to="'+j+'"></li>')
@@ -252,28 +254,77 @@ else{
 										$(".btnModal").click(function(){
 										$(".modal-body img").attr("src", $(".active img").attr("src"));
 										$(".modal-body img").attr("alt", $(".active img").attr("alt"));
-										
 										})
 										
 									
 								}
+								setTimeout(function(){
+									if(($("html").width())>=992){
+										var imgheight=$(".item img").css("height")
+									$(".textepropos").css("height", imgheight)
+									$(".carouWrap").css("height", imgheight)
+									$(".row").css("height", imgheight)
+
+									}
+									
+								},100)
+								$(".carousel-inner").append(divCarou)	
+								$(".wrapgeneral").removeClass("container-fluid");
+								$(".wrapgeneral").addClass("container");
+								$(".textepropos").removeClass("col-lg-2");
+								$(".textepropos").removeClass("col-md-3");
+								$(".textepropos").addClass("col-md-3");
+								$(".pictureprez").removeClass("col-md-12");
+								$(".pictureprez").removeClass("col-lg-1");
+								$(".pictureprez").removeClass("col-sm-12");
+								$(".pictureprez").addClass("col-xs-12");
 							}
 
 							else{
 								if(j==0){
-									var divCarou = $("<div class='item active embed-responsive embed-responsive-16by9'></div>").append(resultat[i].photos[j].src); 
+									var divCarou = $("<div id='video' class='item active embed-responsive embed-responsive-16by9'></div>").append(resultat[i].photos[j].src); 
 									$(".carouWrap").addClass("col-md-8 col-xs-12");
+									$(".textepropos").addClass("col-md-4 col-xs-12");
 									$(".btnModal").hide();  
 									$(".wrapgeneral").removeClass("container");
 									$(".wrapgeneral").addClass("container-fluid");
-								}
+									}
 								else{
-									var divCarou = $("<div class='item embed-responsive embed-responsive-16by9'></div>").append(resultat[i].photos[j].src);
+									var divCarou = $("<div  id='video' class='item embed-responsive embed-responsive-16by9'></div>").append(resultat[i].photos[j].src);
 									$(".carouWrap").addClass("col-md-8 col-xs-12");
+									$(".textepropos").addClass("col-md-4 col-xs-12");
 									$(".btnModal").hide();  
 								}
-							}
+								if(($("html").width())>=992){
+							setTimeout(function(){
+									var imgheight=$("#video").css("height")
+									console.log(imgheight)
+									$(".textepropos").css("height", imgheight)
+									$(".carouWrap").css("height", imgheight)
+									$(".row").css("height", imgheight)
+							},600)}
 							$(".carousel-inner").append(divCarou)	
+							$(".wrapgeneral").removeClass("container-fluid");
+							$(".wrapgeneral").addClass("container");
+							$(".textepropos").removeClass("col-lg-2");
+							$(".textepropos").removeClass("col-md-3");
+							$(".textepropos").addClass("col-md-4");
+							$(".pictureprez").removeClass("col-md-12");
+							$(".pictureprez").removeClass("col-lg-1");
+							$(".pictureprez").removeClass("col-sm-12");
+							$(".pictureprez").addClass("col-xs-12");
+							}
+							// $(".carousel-inner").append(divCarou)	
+							// $(".wrapgeneral").removeClass("container-fluid");
+							// $(".wrapgeneral").addClass("container");
+							// $(".textepropos").removeClass("col-lg-2");
+							// $(".textepropos").removeClass("col-md-3");
+							// $(".textepropos").addClass("col-md-3");
+							// $(".pictureprez").removeClass("col-md-12");
+							// $(".pictureprez").removeClass("col-lg-1");
+							// $(".pictureprez").removeClass("col-sm-12");
+							// $(".pictureprez").addClass("col-xs-12");
+
 						}
 	
 
@@ -284,17 +335,7 @@ else{
 							$(".carousel-indicators").hide();
 							$(".carousel-control").hide();
 						}
-						if(resultat[i].size==0){
-							$(".wrapgeneral").removeClass("container-fluid");
-							$(".wrapgeneral").addClass("container");
-							$(".textepropos").removeClass("col-lg-2");
-							$(".textepropos").removeClass("col-md-3");
-							$(".textepropos").addClass("col-md-3");
-							$(".pictureprez").removeClass("col-md-12");
-							$(".pictureprez").removeClass("col-lg-1");
-							$(".pictureprez").removeClass("col-sm-12");
-							$(".pictureprez").addClass("col-xs-12");
-						}
+
 						if(resultat[i].avec){
 							if(resultat[i].projet){
 								var avec = $("<h2 class='col-xs-12'></h2>").append("<b>Avec: </b>"+resultat[i].avec+" "+"|<b> Découvrez le projet sur: </b>"+resultat[i].projet);  
@@ -304,11 +345,32 @@ else{
 							}
 							$("h1").after(avec);
 						}
-						
+						if(resultat[i].size==0){
+							setTimeout(function(){
+								var imgwidth=$(".item img").css("width")
+							
+								var pwidth=Number(1170- ($(".item img").width()))
+								console.log($(".item img").width())
+								console.log(pwidth)
+								$(".textepropos").css("width", pwidth)
+								$(".textepropos").css("padding-left", "9%")
+								
+								$(".carouWrap").css("width", imgwidth)
+								// $(".row").css("width", imgwidth)
+							},100)
+							
+								
+							
+						}
 						
 					}}})
 			
 				}
 
-
-
+		//refresh page on browser resize
+$(window).bind('resize', function(e)
+{
+  console.log('window resized..');
+  this.location.reload(false); /* false to get page from cache */
+  /* true to fetch page from server */
+});
