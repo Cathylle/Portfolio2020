@@ -157,7 +157,12 @@ $.getJSON( "realisation.json")
 
 
 if(window.location.href.includes("realisation")){
-
+	$(window).bind('resize', function(e)
+	{
+	  console.log('window resized..');
+	  this.location.reload(false); /* false to get page from cache */
+	  /* true to fetch page from server */
+	});
 	const requeteUsers = fetch('realisation.json');
 	requeteUsers
 		.then(function(res) { return res.json() })
@@ -377,9 +382,3 @@ else{
 				}
 
 		//refresh page on browser resize
-//$(window).bind('resize', function(e)
-//{
-  //console.log('window resized..');
- // this.location.reload(false); /* false to get page from cache */
-  /* true to fetch page from server */
-//});
