@@ -258,16 +258,9 @@ else{
 										
 									
 								}
-								setTimeout(function(){
-									if(($("html").width())>=992){
-										var imgheight=$(".item img").css("height")
-									$(".textepropos").css("height", imgheight)
-									$(".carouWrap").css("height", imgheight)
-									$(".row").css("height", imgheight)
 
-									}
-									
-								},100)
+								
+								
 								$(".carousel-inner").append(divCarou)	
 								$(".wrapgeneral").removeClass("container-fluid");
 								$(".wrapgeneral").addClass("container");
@@ -278,6 +271,15 @@ else{
 								$(".pictureprez").removeClass("col-lg-1");
 								$(".pictureprez").removeClass("col-sm-12");
 								$(".pictureprez").addClass("col-xs-12");
+								$(window).on('load', function() {
+									if(($("html").width())>=992){
+												var imgheight=$(".item img").css("height")
+											$(".textepropos").css("height", imgheight)
+											$(".carouWrap").css("height", imgheight)
+											$(".row").css("height", imgheight)
+		
+											}
+								   });
 							}
 
 							else{
@@ -295,14 +297,18 @@ else{
 									$(".textepropos").addClass("col-md-4 col-xs-12");
 									$(".btnModal").hide();  
 								}
-								if(($("html").width())>=992){
-							setTimeout(function(){
-									var imgheight=$("#video").css("height")
-									console.log(imgheight)
-									$(".textepropos").css("height", imgheight)
-									$(".carouWrap").css("height", imgheight)
-									$(".row").css("height", imgheight)
-							},600)}
+
+								$(window).on('load', function() {
+									if(($("html").width())>=992){
+							
+										var imgheight=$("#video").css("height")
+										console.log(imgheight)
+										$(".textepropos").css("height", imgheight)
+										$(".carouWrap").css("height", imgheight)
+										$(".row").css("height", imgheight)
+										}
+								   });
+								
 							$(".carousel-inner").append(divCarou)	
 							$(".wrapgeneral").removeClass("container-fluid");
 							$(".wrapgeneral").addClass("container");
@@ -345,23 +351,26 @@ else{
 							}
 							$("h1").after(avec);
 						}
-						if(resultat[i].size==0){
-							setTimeout(function(){
-								var imgwidth=$(".item img").css("width")
+						if(($("html").width())>=992){
+							if(resultat[i].size==0){
+						$(window).on('load', function() {
+
+	var imgwidth=$(".item img").css("width")
 							
-								var pwidth=Number(1170- ($(".item img").width()))
-								console.log($(".item img").width())
-								console.log(pwidth)
-								$(".textepropos").css("width", pwidth)
-								$(".textepropos").css("padding-left", "9%")
+	var pwidth=Number(1170- ($(".item img").width()))
+	console.log($(".item img").width())
+	console.log(pwidth)
+	$(".textepropos").css("width", pwidth)
+	$(".textepropos").css("padding-left", "9%")
+	
+	$(".carouWrap").css("width", imgwidth)
+	
+	console.log("coucou")
+
 								
-								$(".carouWrap").css("width", imgwidth)
-								// $(".row").css("width", imgwidth)
-							},100)
 							
-								
-							
-						}
+						})}};	
+						
 						
 					}}})
 			
