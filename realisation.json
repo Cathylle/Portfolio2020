@@ -1,4 +1,25 @@
 [{   "size": 0 ,
+    "titre":"Préparation nouveau site",
+    "id":39,
+    "categ":"commu",
+    "miniature":"img/COMMU/mini-Service-01.png",
+    "texte":"Icones et logo créé pour la refonte de mon portfolio",
+    "photos" : [
+        {"src":"img/COMMU/icone_set-01.jpg",
+            "alt":"Préparation icone",
+            "titre":"Icones classiques"
+            },
+	{"src":"img/COMMU/recherche_icone-01.jpg",
+            "alt":"Recherche Logo",
+            "titre":"Recherche Logo"
+            },
+	{"src":"img/COMMU/icon_service.jpg",
+            "alt":"Icones illustrant les services que je propose",
+            "titre":"Services"
+            }
+    ]
+},
+    {   "size": 0 ,
     "titre":"Méduses Légères",
     "id":38,
     "categ":"illu",
